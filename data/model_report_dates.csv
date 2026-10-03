@@ -1,0 +1,86 @@
+row,doc_id,document,location,release_month,group,orig_mmlu,repaired_variant,translation,inferred
+9,openai2023gpt4,GPT-4 Technical Report,p7 Table 2 (MMLU row),2023-03,pre,1,0,0,0
+10,openai2023gpt4,GPT-4 Technical Report,p7 Sec 'Many existing ML benchmarks' para,2023-03,pre,0,0,1,0
+11,openai2023gpt4,GPT-4 Technical Report,p32 Table 11 (MMLU row),2023-03,pre,1,0,0,0
+12,touvron2023llama2,Llama 2 report,p8 Table 3 (MMLU column),2023-07,pre,1,0,0,0
+13,touvron2023llama2,Llama 2 report,p8 Table 4 (MMLU 5-shot row),2023-07,pre,1,0,0,0
+14,touvron2023llama2,Llama 2 report,p48 Table 18 (MMLU column),2023-07,pre,1,0,0,0
+15,touvron2023llama2,Llama 2 report,p49 Table 19,2023-07,pre,1,0,0,0
+16,touvron2023llama2,Llama 2 report,p49 Table 20 (MMLU column),2023-07,pre,1,0,0,0
+17,touvron2023llama2,Llama 2 report,p76 Table 51 (MMLU-Humanities and MMLU-Overall blocks),2023-07,pre,1,0,0,0
+18,jiang2023mistral7b,Mistral 7B report,p4 Table 2 (MMLU column),2023-10,pre,1,0,0,0
+19,jiang2023mistral7b,Mistral 7B report,p4 para 'Size and Efficiency',2023-10,pre,1,0,0,0
+20,geminiteam2023gemini,Gemini 1.0 report,p2 abstract/intro para,2023-12,pre,1,0,0,0
+21,geminiteam2023gemini,Gemini 1.0 report,p6 Sec 5.1.1 para 'On MMLU',2023-12,pre,1,0,0,0
+22,geminiteam2023gemini,Gemini 1.0 report,p8 Table 2 (MMLU row),2023-12,pre,1,0,0,0
+23,geminiteam2023gemini,Gemini 1.0 report,p9 Table 3 (MMLU (5-shot) row),2023-12,pre,1,0,0,0
+24,geminiteam2023gemini,Gemini 1.0 report,p40 Sec 'Discussion' para,2023-12,pre,1,0,0,0
+25,geminiteam2023gemini,Gemini 1.0 report,p73-74 Appendix 10.2 para,2023-12,pre,1,0,0,0
+26,geminiteam2024gemini15,Gemini 1.5 report,p5 Fig 2 (MMLU bar),2024-03,pre,1,0,0,0
+27,geminiteam2024gemini15,Gemini 1.5 report,p31 Sec 6.1.2 'General Reasoning' para,2024-03,pre,1,0,0,0
+28,dubey2024llama3,Llama 3 report,"p3 Table 2 (MMLU, MMLU 0-shot CoT, MMLU-Pro rows)",2024-07,post,1,1,0,0
+29,dubey2024llama3,Llama 3 report,"p31 Table 13 (MMLU, MMLU-Pro columns)",2024-07,post,1,1,0,0
+30,dubey2024llama3,Llama 3 report,"p34 Table 15 (MMLU, MMLU-Pro rows)",2024-07,post,1,1,0,0
+31,dubey2024llama3,Llama 3 report,p35 Sec 5.2.1 'General knowledge' para,2024-07,post,1,1,0,0
+32,dubey2024llama3,Llama 3 report,p38 Table 20 (Multilingual MMLU column),2024-07,post,0,0,1,0
+33,qwen2024qwen2,Qwen2 report,p1 abstract,2024-07,post,1,0,0,0
+34,qwen2024qwen2,Qwen2 report,p3 Sec 1 intro para,2024-07,post,1,0,0,0
+35,qwen2024qwen2,Qwen2 report,"p9 Table 2 (MMLU, MMLU-Pro, CMMLU rows)",2024-07,post,1,1,0,0
+36,qwen2024qwen2,Qwen2 report,"p10 Table 3 (MMLU, MMLU-Pro, CMMLU rows)",2024-07,post,1,1,0,0
+37,qwen2024qwen2,Qwen2 report,"p11 Table 4 (MMLU, MMLU-Pro, CMMLU rows)",2024-07,post,1,1,0,0
+38,qwen2024qwen2,Qwen2 report,"p12 Table 5 (MMLU, MMLU-Pro, CMMLU rows)",2024-07,post,1,1,0,0
+39,qwen2024qwen2,Qwen2 report,"p13 Table 6 (MMLU, MMLU-Pro rows)",2024-07,post,1,1,0,0
+40,qwen2024qwen2,Qwen2 report,"p14 Table 7 (MMLU, MMLU-Pro rows)",2024-07,post,1,1,0,0
+41,qwen2024qwen2,Qwen2 report,"p15 Table 8 and Table 9 (MMLU, MMLU-Pro rows)",2024-07,post,1,1,0,0
+42,qwen2024qwen2,Qwen2 report,"p19 Table 15 (MMLU, MMLU-Pro rows)",2024-07,post,1,1,0,0
+43,deepseek2024v3,DeepSeek-V3 report,p6 'Summary of Core Evaluation Results' bullet,2024-12,post,1,1,0,0
+44,deepseek2024v3,DeepSeek-V3 report,"p25 Table 3 (MMLU, MMLU-Redux, MMLU-Pro, CMMLU, MMMLU rows)",2024-12,post,1,1,1,0
+45,deepseek2024v3,DeepSeek-V3 report,p26 Table 4 (MMLU (EM) 5-shot row),2024-12,post,1,0,0,0
+46,deepseek2024v3,DeepSeek-V3 report,p27 Table 5 (MMLU (EM) 5-shot row),2024-12,post,1,0,0,0
+47,deepseek2024v3,DeepSeek-V3 report,"p31 Table 6 (MMLU, MMLU-Redux, MMLU-Pro rows)",2024-12,post,1,1,0,0
+48,deepseek2024v3,DeepSeek-V3 report,p32 Sec 5.3.2 'English Benchmarks' para,2024-12,post,1,1,0,0
+49,deepseek2025r1,DeepSeek-R1 report,"p9 Table 3 (MMLU, MMLU-Redux, MMLU-Pro rows)",2025-01,post,1,1,0,0
+50,deepseek2025r1,DeepSeek-R1 report,"p41 Table 8 (MMLU, MMLU-Redux, MMLU-Pro rows)",2025-01,post,1,1,0,0
+51,deepseek2025r1,DeepSeek-R1 report,"p56 Table 12 (MMLU, MMLU-Redux, MMLU-Pro rows)",2025-01,post,1,1,0,0
+52,qwen2025qwen3,Qwen3 report,"p6 Tables 3 and 4 (MMLU, MMLU-Redux, MMLU-Pro, MMMLU rows)",2025-05,post,1,1,1,0
+53,qwen2025qwen3,Qwen3 report,p7 Tables 5 and 6,2025-05,post,1,1,1,1
+54,qwen2025qwen3,Qwen3 report,p8 Tables 7 and 8,2025-05,post,1,1,1,1
+55,qwen2025qwen3,Qwen3 report,"p14 Tables 11 and 12 (MMLU-Redux, MMMLU rows)",2025-05,post,0,1,1,0
+56,qwen2025qwen3,Qwen3 report,"p16 Tables 13 and 14 (MMLU-Redux, MMMLU rows)",2025-05,post,0,1,1,0
+57,qwen2025qwen3,Qwen3 report,"p17 Tables 15 and 16 (MMLU-Redux, MMMLU rows)",2025-05,post,0,1,1,0
+58,qwen2025qwen3,Qwen3 report,"p18 Tables 17 and 18 (MMLU-Redux, MMMLU rows)",2025-05,post,0,1,1,0
+59,qwen2025qwen3,Qwen3 report,"p19 Tables 19 and 20 (MMLU-Redux, MMMLU rows)",2025-05,post,0,1,1,0
+60,qwen2025qwen3,Qwen3 report,p21 Table 21 (MMLU-Redux column),2025-05,post,0,1,0,0
+61,qwen2025qwen3,Qwen3 report,p21-22 Table 22 (MMLU-Redux row),2025-05,post,0,1,0,0
+62,geminiteam2025gemini25,Gemini 2.5 report,p13 Table 3 (Global MMLU (Lite) row),2025-07,post,0,1,0,0
+63,openai2024gpt4o,GPT-4o system card,"p21 Table 7 (12 MMLU rows: six subjects, 0-shot and 5-shot)",2024-08,post,1,0,0,0
+64,openai2025gpt5,GPT-5 system card,p20 Table 11 'MMLU Language (0-shot)',2025-08,post,0,0,1,0
+65,geminiteam2023gemini,Gemini 1.0 report,p74 Fig 9 (caption),2023-12,pre,1,0,0,0
+110,anthropic2024claude3card,Claude 3 model card,p1 abstract sentence 4,2024-03,pre,1,0,0,0
+111,anthropic2024claude3card,Claude 3 model card,p6 Table 1 (MMLU 5-shot and 5-shot CoT rows),2024-03,pre,1,0,0,0
+112,anthropic2024claude3card,Claude 3 model card,"p15 Sec 5.6.1 para ""Multilingual MMLU""",2024-03,pre,0,0,1,0
+113,anthropic2024claude3card,Claude 3 model card,p16 Table 5 (Multilingual MMLU row),2024-03,pre,0,0,1,0
+114,anthropic2024claude3card,Claude 3 model card,p17 Fig 10 (caption),2024-03,pre,0,0,1,0
+115,anthropic2024claude35,Claude 3.5 Sonnet addendum,"p1 Sec 2 para ""Reasoning, Coding, and Question Answering""",2024-06,contemporaneous,1,0,0,0
+116,anthropic2024claude35,Claude 3.5 Sonnet addendum,"p2 Table 1 (MMLU 5-shot CoT, 5-shot, 0-shot CoT rows)",2024-06,contemporaneous,1,0,0,0
+118,openai2023gpt4,GPT-4 Technical Report,"p8 Fig 5 (MMLU English and Multilingual MMLU, 26 languages)",2023-03,pre,1,0,1,0
+119,geminiteam2024gemini15,Gemini 1.5 report,p30 Table 11 (MMLU row),2024-03,pre,1,0,0,0
+120,geminiteam2024gemini15,Gemini 1.5 report,p46 Table 22 (MMLU (test) row),2024-03,pre,1,0,0,0
+121,deepseek2024v3,DeepSeek-V3 report,p1 Fig 1 (MMLU-Pro (EM) bar group),2024-12,post,0,1,0,0
+122,deepseek2025r1,DeepSeek-R1 report,p55 Fig 15 (MMLU categories),2025-01,post,1,0,0,0
+123,deepseek2025r1,DeepSeek-R1 report,p55 Fig 16 (MMLU-Pro categories),2025-01,post,0,1,0,0
+124,qwen2025qwen3,Qwen3 report,p9 para on Table 4 (Qwen3-32B-Base MMLU-Pro sentence),2025-05,post,0,1,0,0
+125,qwen2025qwen3,Qwen3 report,"p24 Tables 24 and 25 (MMMLU column; Spanish, French)",2025-05,post,0,0,1,0
+126,qwen2025qwen3,Qwen3 report,"p25 Tables 26 and 27 (MMMLU column; Portuguese, Italian)",2025-05,post,0,0,1,0
+127,qwen2025qwen3,Qwen3 report,"p26 Tables 28 and 29 (MMMLU column; Arabic, Japanese)",2025-05,post,0,0,1,0
+128,qwen2025qwen3,Qwen3 report,"p27 Tables 30 and 31 (MMMLU column; Korean, Indonesian)",2025-05,post,0,0,1,0
+129,qwen2025qwen3,Qwen3 report,p29 Table 34 (MMMLU column; German),2025-05,post,0,0,1,0
+130,jiang2023mistral7b,Mistral 7B report,p4 Fig 4 (MMLU bar group),2023-10,pre,1,0,0,0
+131,jiang2023mistral7b,Mistral 7B report,p5 Fig 5 (MMLU panel),2023-10,pre,1,0,0,0
+132,dubey2024llama3,Llama 3 report,"p32 Fig 13 (MMLU robustness: label variants, few-shot label bias)",2024-07,post,1,0,0,0
+133,dubey2024llama3,Llama 3 report,"p32 Fig 14 (MMLU robustness: answer order, prompt format)",2024-07,post,1,0,0,0
+190,meta2025llama4,Llama 4 announcement,"Image 3, table 'Llama 4 Maverick instruction-tuned benchmarks' (MMLU Pro and Multilingual MMLU rows)",2025-04,post,0,1,1,0
+191,meta2025llama4,Llama 4 announcement,"Image 6, table 'Llama 4 Scout instruction-tuned benchmarks' (MMLU Pro row)",2025-04,post,0,1,0,0
+192,meta2025llama4,Llama 4 announcement,"Image 7, table 'Llama 4 Behemoth instruction-tuned benchmarks' (MMLU Pro and Multilingual MMLU (OpenAI) rows)",2025-04,post,0,1,1,0
+193,openai2024gpt4o,GPT-4o system card,p8 Sec 3.3.3 sentence 'a subset of MMLU' (footnotes 6 and 7),2024-08,post,1,0,0,0
+194,openai2024gpt4o,GPT-4o system card,p9 figure 'Capability evaluations across system and human voices' (MMLU panel),2024-08,post,1,0,0,0

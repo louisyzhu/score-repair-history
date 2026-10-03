@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite the paper and this archive."
+title: "Position: A Score Should Travel With Its Repair History (data and code)"
+authors:
+  - family-names: Zhu
+    given-names: Louis Yiven
+    orcid: "https://orcid.org/0009-0001-5579-0340"
+    affiliation: University of Oxford
+version: 1.0.0
+date-released: 2026-10-03
+license: MIT
+repository-code: "https://github.com/louisyzhu/score-repair-history"
+keywords: [benchmarks, MMLU, meta-science, measurement validity, benchmark maintenance]

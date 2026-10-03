@@ -1,0 +1,163 @@
+stage,row,doc_id,document,location,field,before,second_coding,after,changed,rule,reason
+adjudication,0,hendrycks2021mmlu,MMLU paper,p1 abstract sentence 4,K2,1,0,0,1,R3,Non-score row. Second coder read the abstract and found no shot count or harness; first-pass basis ('few-shot stated') not found at the event.
+adjudication,12,touvron2023llama2,Llama 2 report,p8 Table 3 (MMLU column),K2,1,0,0,1,R2,Shot count sits in the body paragraph that introduces Table 3; the table and caption do not point to it.
+adjudication,13,touvron2023llama2,Llama 2 report,p8 Table 4 (MMLU 5-shot row),K3,1,0,0,1,R2,Contamination sentence is a separate paragraph; Table 4 and its caption do not point to it.
+adjudication,17,touvron2023llama2,Llama 2 report,p76 Table 51 (MMLU-Humanities and MMLU-Overall blocks),K2,1,0,0,1,R3,"L=50 and Zn>2 are contamination-analysis parameters, stated in the section, not how the scores were obtained."
+adjudication,18,jiang2023mistral7b,Mistral 7B report,p4 Table 2 (MMLU column),K2,1,0,0,1,R2,Basis is the Fig 4 caption; Table 2 does not point to Fig 4.
+adjudication,20,geminiteam2023gemini,Gemini 1.0 report,p2 abstract/intro para,K5,0,1,1,1,R4,'first model to achieve human-expert performance on MMLU' is an expert comparison.
+adjudication,20,geminiteam2023gemini,Gemini 1.0 report,p2 abstract/intro para,K7,1,0,0,1,R4,No saturation words at the event; the expert comparison is coded K5.
+adjudication,21,geminiteam2023gemini,Gemini 1.0 report,p6 Sec 5.1.1 para 'On MMLU',K7,1,0,0,1,R4,Expert comparison already coded K5; no saturation words in the paragraph.
+adjudication,24,geminiteam2023gemini,Gemini 1.0 report,p40 Sec 'Discussion' para,K5,0,1,1,1,R4,'surpasses human-expert performance on the exam benchmark MMLU' is an expert comparison.
+adjudication,24,geminiteam2023gemini,Gemini 1.0 report,p40 Sec 'Discussion' para,K7,1,0,0,1,R4,"'saturate many benchmarks' is in a later, separate paragraph; 'de facto measure of progress' is not a saturation statement."
+adjudication,25,geminiteam2023gemini,Gemini 1.0 report,p73-74 Appendix 10.2 para,K5,1,0,1,0,R7,"'GPT-4's performance improves from 84.2% with greedy sampling to 87.3%' states that the score changes with the decoding method (kept from the first pass, on this basis rather than the tuning sentence)."
+adjudication,27,geminiteam2024gemini15,Gemini 1.5 report,p31 Sec 6.1.2 'General Reasoning' para,K7,1,0,0,1,R5,'all exceeding 80%' is a bound on the scores; no saturation words.
+adjudication,29,dubey2024llama3,Llama 3 report,"p31 Table 13 (MMLU, MMLU-Pro columns)",K5,1,0,0,1,R7,"Caption's 95% confidence intervals are not printed for the MMLU and MMLU-Pro cells, so they do not qualify these scores."
+adjudication,30,dubey2024llama3,Llama 3 report,"p34 Table 15 (MMLU, MMLU-Pro rows)",K2,1,0,0,1,R3,Non-score row. Contamination-detection method is not an implementation statement.
+adjudication,35,qwen2024qwen2,Qwen2 report,"p9 Table 2 (MMLU, MMLU-Pro, CMMLU rows)",K6,0,1,1,1,R8,MMLU rows sit under an 'English' heading and CMMLU under 'Chinese': results displayed by language.
+adjudication,36,qwen2024qwen2,Qwen2 report,"p10 Table 3 (MMLU, MMLU-Pro, CMMLU rows)",K6,0,1,1,1,R8,As row 35: rows grouped under language headings.
+adjudication,37,qwen2024qwen2,Qwen2 report,"p11 Table 4 (MMLU, MMLU-Pro, CMMLU rows)",K6,0,1,1,1,R8,As row 35: rows grouped under language headings.
+adjudication,38,qwen2024qwen2,Qwen2 report,"p12 Table 5 (MMLU, MMLU-Pro, CMMLU rows)",K6,0,1,0,0,R8,No language heading in Table 5; the CMMLU name alone does not count.
+adjudication,42,qwen2024qwen2,Qwen2 report,"p19 Table 15 (MMLU, MMLU-Pro rows)",K2,1,0,0,1,R3,"The 13-gram criterion is a contamination-analysis parameter, not how the scores were obtained."
+adjudication,44,deepseek2024v3,DeepSeek-V3 report,"p25 Table 3 (MMLU, MMLU-Redux, MMLU-Pro, CMMLU, MMMLU rows)",K6,0,1,1,1,R8,'MMMLU-non-English' row under a 'Multilingual' heading names a multilingual variant.
+adjudication,51,deepseek2025r1,DeepSeek-R1 report,"p56 Table 12 (MMLU, MMLU-Redux, MMLU-Pro rows)",K7,1,0,0,1,R2,'near-saturation performance' is in a later paragraph that Table 12 does not point to (as for Figs 15 and 16 of the same report).
+adjudication,52,qwen2025qwen3,Qwen3 report,"p6 Tables 3 and 4 (MMLU, MMLU-Redux, MMLU-Pro, MMMLU rows)",K6,0,1,1,1,R8,MMMLU row under 'Multilingual Tasks' names a multilingual variant.
+adjudication,53,qwen2025qwen3,Qwen3 report,p7 Tables 5 and 6,K6,0,1,1,1,R8,As row 52.
+adjudication,54,qwen2025qwen3,Qwen3 report,p8 Tables 7 and 8,K6,0,1,1,1,R8,As row 52.
+adjudication,60,qwen2025qwen3,Qwen3 report,p21 Table 21 (MMLU-Redux column),K2,1,0,0,1,R3,The pass@64 note applies to AIME columns only; the MMLU-Redux cells carry no parentheses.
+adjudication,61,qwen2025qwen3,Qwen3 report,p21-22 Table 22 (MMLU-Redux row),K2,1,0,0,1,R3,"The in-house asterisk does not apply to MMLU-Redux, which carries none."
+adjudication,62,geminiteam2025gemini25,Gemini 2.5 report,p13 Table 3 (Global MMLU (Lite) row),K2,1,0,0,1,R3,"Caption points to Table 11, whose Global MMLU entry describes the dataset ('MMLU translated by human translators into 15 languages') and gives no harness, prompt, shots or scoring rule."
+adjudication,70,wang2024mmlupro,MMLU-Pro paper,p1 abstract,K5,0,1,1,1,R7,Non-score row. 'sensitivity of model scores to prompt variations decreased from 4-5%' states prompt sensitivity.
+adjudication,71,wang2024mmlupro,MMLU-Pro paper,p1 Fig 1 (caption),K2,0,1,1,1,R3,'(Right) Performance using CoT vs. Direct' states the prompting condition.
+adjudication,71,wang2024mmlupro,MMLU-Pro paper,p1 Fig 1 (caption),K7,1,0,0,1,R5,'(Left) Performance gap' shows the MMLU to MMLU-Pro gap; no words about saturation or separation.
+adjudication,73,wang2024mmlupro,MMLU-Pro paper,p8 Fig 4 (caption),K7,1,0,0,1,R2,The 4% range sentence is in a paragraph that points to Fig 4; the figure does not point back.
+adjudication,76,zhao2025mmlucf,MMLU-CF paper,p2 Fig 2 (caption),K3,1,0,0,1,R6,Basis is the variant name only; the caption has no contamination words.
+adjudication,77,zhao2025mmlucf,MMLU-CF paper,p7 Table 1,K3,1,0,0,1,R6,The validation-test difference is displayed but the caption does not call it a contamination check.
+adjudication,79,zhao2025mmlucf,MMLU-CF paper,p13 Table 3 (discipline breakdown),K3,1,0,0,1,R6,Basis is the variant name only.
+adjudication,80,son2025kmmlu,KMMLU paper,p1 abstract,K2,0,1,1,1,R3,'integrate the benchmark into EleutherAI's Language Model Evaluation Harness' names the harness the benchmark runs in (tie-break).
+adjudication,80,son2025kmmlu,KMMLU paper,p1 abstract,K7,1,0,1,0,R5,'leaving significant room for improvement' is a statement about the benchmark's headroom (kept from the first pass).
+adjudication,81,son2025kmmlu,KMMLU paper,p7 Table 3,K6,1,0,0,1,R8,Caption has no scope words; the KMMLU name alone does not count.
+adjudication,82,son2025kmmlu,KMMLU paper,p8 Fig 4 (caption),K2,1,0,0,1,R3,"Non-score row. 'translated via GPT-4' concerns how the dataset was made, not how scores were obtained."
+adjudication,83,son2025kmmlu,KMMLU paper,p9 Table 4,K6,1,0,0,1,R2,The Korean-context sentence is in the discussion paragraph; Table 4 does not point to it.
+adjudication,84,son2025kmmlu,KMMLU paper,p19 Fig 10 (human comparison),K7,1,0,0,1,R4,Expert-gap framing already coded K5; no saturation words.
+adjudication,86,singh2025globalmmlu,Global-MMLU paper,p14 Fig 9 (caption),K2,1,0,0,1,R2,"The only implementation source is the p13 Evaluation Setup section, which Fig 9 does not point to."
+adjudication,87,singh2025globalmmlu,Global-MMLU paper,p15 Fig 10 (caption),K2,1,0,0,1,R2,As row 86.
+adjudication,88,singh2025globalmmlu,Global-MMLU paper,p16 Fig 11 (caption),K2,1,0,0,1,R2,As row 86.
+adjudication,89,singh2025globalmmlu,Global-MMLU paper,p18 Table 2 / p19 Table 3 / p20 Table 4 (rank changes),K2,1,0,0,1,R2,Non-score row. As row 86.
+adjudication,91,fourrier2023leaderboard,Open LLM Leaderboard post,Sec 'Now how do we evaluate the model' -> comparison table,K5,1,0,0,1,R2,"The sensitivity sentence is in the paragraph below the table, which the table does not point to."
+adjudication,94,aiindex2026,AI Index 2026,p76 Fig 2.1.1 (MMLU line),K2,1,0,0,1,R3,Footnote 1 rescales the plotted line to the human baseline; it does not say how the scores were obtained.
+adjudication,94,aiindex2026,AI Index 2026,p76 Fig 2.1.1 (MMLU line),K5,1,0,1,0,R4,"The axis states 'Performance relative to the human baseline (%)': the expert comparison is the plotted quantity, labelled in words (kept from the first pass)."
+adjudication,94,aiindex2026,AI Index 2026,p76 Fig 2.1.1 (MMLU line),K7,1,0,0,1,R5,Rests on the plotted shape only.
+adjudication,95,aiindex2026,AI Index 2026,"p79 Fig 2.1.5 (MMLU Math, MMLU Cli, MMLU Med, MMLU 5Sub bars)",K2,1,0,0,1,R3,Non-score row. Precision@50 is the metric of invalid-question detection.
+adjudication,96,aiindex2026,AI Index 2026,p81 Sec 2.2 'MMLU' para 2,K4,1,0,0,1,R9,Non-score row. First-pass basis was inferred from MMLU-Pro's design ('via noise removal'); the second coder's evidence lists no item-error words in the paragraph (not confirmed at the page).
+adjudication,96,aiindex2026,AI Index 2026,p81 Sec 2.2 'MMLU' para 2,K5,0,1,1,1,R7,Non-score row. 'MMLU showed around 4%-5% sensitivity to prompt variations' states prompt sensitivity.
+adjudication,97,aiindex2026,AI Index 2026,p81 Sec 2.2 'MMLU' para 3,K5,1,0,0,1,R7,"The four-point spread is between models, not a qualification of the aggregate."
+adjudication,97,aiindex2026,AI Index 2026,p81 Sec 2.2 'MMLU' para 3,K7,1,0,1,0,R5,'tightly clustered' and a spread of 'just over 4 percentage points' among the leading 15 tell the reader how far the benchmark separates them (kept from the first pass).
+adjudication,98,aiindex2026,AI Index 2026,p82 Fig 2.2.1 (MMLU-Pro overall accuracy),K7,1,0,0,1,R2,"Basis is the p81 paragraph, which points to the figure; the figure does not point back."
+adjudication,104,aiindex2025,AI Index 2025,p100 Sec 'Improved Performance From Smaller Models' + Fig 2.1.38,K7,1,0,0,1,R5,The fixed 60% threshold is the coder's inference; no saturation words.
+adjudication,105,aiindex2025,AI Index 2025,p106 Sec 2.2 'MMLU' paras 1-2 + Fig 2.2.4,K5,1,0,1,0,R4,"Fig 2.2.4 labels the expert level ('89.8%, human baseline') beside the scores (kept from the first pass)."
+adjudication,105,aiindex2025,AI Index 2025,p106 Sec 2.2 'MMLU' paras 1-2 + Fig 2.2.4,K7,1,0,0,1,R5,A 64.4-point rise and a line crossing the baseline are inferences; no saturation words.
+adjudication,106,aiindex2025,AI Index 2025,p107 Sec 2.2 paras + Fig 2.2.5,K2,0,1,1,1,R3,"Fig 2.2.5 prints '(0-shot)' on the Athene-V2-Chat bar, beside a printed score: a shot count at the event."
+adjudication,107,aiindex2025,AI Index 2025,"p107 Sec 2.2 para 'Additionally, concerns'",K5,1,0,1,0,R7,"Non-score row, kept from the first pass: the paragraph states that reported scores vary with prompting by up to five points."
+adjudication,108,aiindex2025,AI Index 2025,"p113 Highlight 'o1, o3 and Inference-Time Compute' + Fig 2.2.14 MMLU panel",K2,0,1,1,1,R3,"'Pass@1' axis states the scoring rule, as '(EM)' does elsewhere in the tally."
+adjudication,108,aiindex2025,AI Index 2025,"p113 Highlight 'o1, o3 and Inference-Time Compute' + Fig 2.2.14 MMLU panel",K7,1,0,0,1,R5,The contrast between gains on MMLU and on MATH/AIME is the coder's inference.
+adjudication,109,iasr2026,International AI Safety Report 2026,p27 Sec 1 'What can current general-purpose AI systems do?' para 1,K6,1,0,0,1,R2,"Table 1.4 precedes the section heading and the paragraph points to Figure 1.4, not Table 1.4."
+adjudication,109,iasr2026,International AI Safety Report 2026,p27 Sec 1 'What can current general-purpose AI systems do?' para 1,K7,1,0,0,1,R2,"The 'variability' sentence precedes the section heading, outside the event's paragraph."
+adjudication,115,anthropic2024claude35,Claude 3.5 Sonnet addendum,"p1 Sec 2 para ""Reasoning, Coding, and Question Answering""",K2,0,1,1,1,R2,"Non-score row. 'The results are shown in Table 1' points from the paragraph to the table, whose rows state shot and CoT settings."
+adjudication,130,jiang2023mistral7b,Mistral 7B report,p4 Fig 4 (MMLU bar group),K2,1,0,1,0,R3,'re-evaluated on all metrics with our evaluation pipeline' names the harness as the authors' own (kept from the first pass).
+adjudication,132,dubey2024llama3,Llama 3 report,"p32 Fig 13 (MMLU robustness: label variants, few-shot label bias)",K5,0,1,1,1,R7,The figure displays scores across label variants: a range across prompts.
+adjudication,133,dubey2024llama3,Llama 3 report,"p32 Fig 14 (MMLU robustness: answer order, prompt format)",K5,0,1,1,1,R7,The figure displays scores across answer orders and prompt formats: a range across prompts.
+adjudication,139,hendrycks2021mmlu,MMLU paper,p8 Sec 5 para 'Addressing these shortcomings',K2,1,0,0,1,R3,Fine-tuning on Professional Law data is a training procedure.
+adjudication,142,hendrycks2021mmlu,MMLU paper,p13 Appendix A Fig 10,K5,0,1,1,1,R7,"'zero-shot performance is only somewhat lower than 5-shot accuracy': a range across shot settings, in words."
+adjudication,156,zhao2025mmlucf,MMLU-CF paper,p7 Sec 4.4 Results and Analysis para 1,K3,1,0,0,1,R6,"The paragraph points to Table 1, which carries no contamination qualification after row 77's ruling."
+adjudication,158,zhao2025mmlucf,MMLU-CF paper,p8 Sec 4.4 para 3 (large-model category),K3,1,0,0,1,R6,'+0.3% between test and validation scores' is not called a contamination check at the event.
+adjudication,164,son2025kmmlu,KMMLU paper,p2 Sec 1 Introduction para ('We evaluate 27 different LLMs...'),K7,1,0,1,0,R5,"'significant room for improvement' is a headroom statement (kept from the first pass, as row 80)."
+adjudication,165,son2025kmmlu,KMMLU paper,"p2 Sec 1 Introduction para ('Finally, we conduct a detailed analysis...')",K2,1,0,0,1,R3,"CoT prompting is named for another model, not as the setting of the 35% and 44% scores."
+adjudication,188,aiindex2025,AI Index 2025,p95 (printed p94) Fig 2.1.33 (MMLU line),K2,1,0,0,1,R3,As row 94: footnote 2 rescales the plotted line.
+adjudication,188,aiindex2025,AI Index 2025,p95 (printed p94) Fig 2.1.33 (MMLU line),K5,1,0,1,0,R4,As row 94: scores plotted relative to a labelled human baseline (kept from the first pass).
+adjudication,188,aiindex2025,AI Index 2025,p95 (printed p94) Fig 2.1.33 (MMLU line),K7,1,0,0,1,R5,As row 94: plotted shape only.
+adjudication,149,wang2024mmlupro,MMLU-Pro paper,p6 Sec 5.1 Overall Performance para 1,K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,157,zhao2025mmlucf,MMLU-CF paper,p7-8 Sec 4.4 para 2 ('Among the API-based models...'),K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,158,zhao2025mmlucf,MMLU-CF paper,p8 Sec 4.4 para 3 (large-model category),K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,159,zhao2025mmlucf,MMLU-CF paper,p8 Sec 4.4 para 4 (medium models),K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,160,zhao2025mmlucf,MMLU-CF paper,p8 Sec 4.4 para 5 (small models),K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,161,zhao2025mmlucf,MMLU-CF paper,p8 Sec 4.4 para 6 (mini models),K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,164,son2025kmmlu,KMMLU paper,p2 Sec 1 Introduction para ('We evaluate 27 different LLMs...'),K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,165,son2025kmmlu,KMMLU paper,"p2 Sec 1 Introduction para ('Finally, we conduct a detailed analysis...')",K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,166,son2025kmmlu,KMMLU paper,p6 Fig 2 (average performance vs ExaFLOP),K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,169,son2025kmmlu,KMMLU paper,p17 Table 6 (negation),K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,170,son2025kmmlu,KMMLU paper,p18 Fig 9 (GPT-4 vs HYPERCLOVA X by subject),K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,172,son2025kmmlu,KMMLU paper,"p18-19 Sec B.4 para 1 ('In Figure 10, we compare...')",K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,173,son2025kmmlu,KMMLU paper,"p26 Table 16 (POLYGLOT-KO, YI-KO by subject)",K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,174,son2025kmmlu,KMMLU paper,p27 Table 17 (LLAMA-2 by subject),K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,175,son2025kmmlu,KMMLU paper,p28 Table 18 (YI by subject),K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,176,son2025kmmlu,KMMLU paper,p29 Table 19 (QWEN by subject),K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,177,son2025kmmlu,KMMLU paper,p30 Table 20 (proprietary models by subject),K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,178,son2025kmmlu,KMMLU paper,"p31 Table 21 (CoT, KMMLU-Hard, by subject)",K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,182,singh2025globalmmlu,Global-MMLU paper,p44 Sec F.2 Subject-level Performance para,K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,183,singh2025globalmmlu,Global-MMLU paper,p44 Fig 15 (Aya Expanse 32B by subject),K1,0,1,1,1,R1,"The event, read with its document, identifies the benchmark."
+adjudication,4,hendrycks2021mmlu,MMLU paper,p6 Sec 4.2 para 'Model Size and Accuracy',K5,0,0,1,1,R2,"Agreed cell. The paragraph points to Table 1, whose per-discipline breakdown qualifies the aggregate."
+adjudication,135,hendrycks2021mmlu,MMLU paper,p6 Sec 4.2 para 'To test the usefulness of fine-tuning' (continues below Fig 6),K5,0,0,1,1,R2,Agreed cell. 'we show in Table 1 that it attains 48.9%' points to Table 1 and its per-discipline breakdown.
+adjudication,22,geminiteam2023gemini,Gemini 1.0 report,p8 Table 2 (MMLU row),K5,0,0,1,1,R2,Agreed cell. The footnote's 'Further analysis in Appendix 10.2' points to the paragraph that states how the score changes with the decoding method (row 25).
+adjudication,44,deepseek2024v3,DeepSeek-V3 report,"p25 Table 3 (MMLU, MMLU-Redux, MMLU-Pro, CMMLU, MMMLU rows)",K5,0,0,1,1,R7,Agreed cell. 'Scores with a gap not exceeding 0.3 are considered to be at the same level' is a tolerance for treating close scores as equal.
+adjudication,75,wang2024mmlupro,MMLU-Pro paper,p8 Table 3,K5,0,0,1,1,R7,Agreed cell. The caption 'Accuracy Differences of Models Between CoT and Direct Answering' states that scores change with the prompting method.
+adjudication,92,fourrier2023leaderboard,Open LLM Leaderboard post,Sec 'Now how do we evaluate' -> paragraph after table,K5,0,0,1,1,R7,"Agreed cell. 'not at all comparable even if they're both labelled as MMLU score', beside 0.488 and 0.637, states sensitivity to the implementation."
+adjudication,147,wang2024mmlupro,MMLU-Pro paper,p2 Sec 1 Introduction para 3 ('Since GPT-4 achieved 86.4%...'),K5,0,0,1,1,R7,"Agreed cell. 'highly sensitive to the prompt and scoring function' states prompt sensitivity, as ruled at rows 70 and 96."
+adjudication,0,hendrycks2021mmlu,MMLU paper,p1 abstract sentence 4,K7,0,0,1,1,R5,Agreed cell. Non-score row. 'still need substantial improvements before they can reach expert-level accuracy' is a headroom statement.
+adjudication,96,aiindex2026,AI Index 2026,p81 Sec 2.2 'MMLU' para 2,K2,1,1,0,1,R3,Agreed cell. Non-score row. A 10-option format describes the benchmark and the chain-of-thought finding is not the setting of reported scores.
+adjudication,5,hendrycks2021mmlu,MMLU paper,p6 Fig 6 (caption),K5_wording,1,,0,1,wording,Only the per-subject display is attached; the words are in a paragraph Fig 6 does not point to.
+adjudication,83,son2025kmmlu,KMMLU paper,p9 Table 4,K5_wording,1,,0,1,wording,Only the category columns are attached.
+adjudication,179,singh2025globalmmlu,Global-MMLU paper,p19 Sec 4.2 'Small models exhibit...' para,K5_wording,1,,0,1,wording,The attached basis is the CA/CS split (a displayed breakdown); the paragraph's words concern rank stability.
+adjudication,62,geminiteam2025gemini25,Gemini 2.5 report,p13 Table 3 (Global MMLU (Lite) row),K6_wording,0,,1,1,wording,The caption points to Table 11: 'MMLU translated by human translators into 15 languages'.
+adjudication,87,singh2025globalmmlu,Global-MMLU paper,p15 Fig 10 (caption),K6_wording,0,,1,1,wording,Panel titles 'Culturally Sensitive (CS)' state cultural scope in words.
+adjudication,4,hendrycks2021mmlu,MMLU paper,p6 Sec 4.2 para 'Model Size and Accuracy',K5_wording,,,0,1,follows K5,K5 adjudicated to 1; wording code set under the wording convention
+adjudication,20,geminiteam2023gemini,Gemini 1.0 report,p2 abstract/intro para,K5_wording,,,1,1,follows K5,K5 adjudicated to 1; wording code set under the wording convention
+adjudication,22,geminiteam2023gemini,Gemini 1.0 report,p8 Table 2 (MMLU row),K5_wording,,,1,1,follows K5,K5 adjudicated to 1; wording code set under the wording convention
+adjudication,24,geminiteam2023gemini,Gemini 1.0 report,p40 Sec 'Discussion' para,K5_wording,,,1,1,follows K5,K5 adjudicated to 1; wording code set under the wording convention
+adjudication,29,dubey2024llama3,Llama 3 report,"p31 Table 13 (MMLU, MMLU-Pro columns)",K5_wording,1.0,,,1,follows K5,"K5 adjudicated to 0, so its wording code is blank"
+adjudication,44,deepseek2024v3,DeepSeek-V3 report,"p25 Table 3 (MMLU, MMLU-Redux, MMLU-Pro, CMMLU, MMMLU rows)",K5_wording,,,1,1,follows K5,K5 adjudicated to 1; wording code set under the wording convention
+adjudication,70,wang2024mmlupro,MMLU-Pro paper,p1 abstract,K5_wording,,,1,1,follows K5,K5 adjudicated to 1; wording code set under the wording convention
+adjudication,75,wang2024mmlupro,MMLU-Pro paper,p8 Table 3,K5_wording,,,1,1,follows K5,K5 adjudicated to 1; wording code set under the wording convention
+adjudication,91,fourrier2023leaderboard,Open LLM Leaderboard post,Sec 'Now how do we evaluate the model' -> comparison table,K5_wording,1.0,,,1,follows K5,"K5 adjudicated to 0, so its wording code is blank"
+adjudication,92,fourrier2023leaderboard,Open LLM Leaderboard post,Sec 'Now how do we evaluate' -> paragraph after table,K5_wording,,,1,1,follows K5,K5 adjudicated to 1; wording code set under the wording convention
+adjudication,96,aiindex2026,AI Index 2026,p81 Sec 2.2 'MMLU' para 2,K5_wording,,,1,1,follows K5,K5 adjudicated to 1; wording code set under the wording convention
+adjudication,97,aiindex2026,AI Index 2026,p81 Sec 2.2 'MMLU' para 3,K5_wording,1.0,,,1,follows K5,"K5 adjudicated to 0, so its wording code is blank"
+adjudication,132,dubey2024llama3,Llama 3 report,"p32 Fig 13 (MMLU robustness: label variants, few-shot label bias)",K5_wording,,,1,1,follows K5,K5 adjudicated to 1; wording code set under the wording convention
+adjudication,133,dubey2024llama3,Llama 3 report,"p32 Fig 14 (MMLU robustness: answer order, prompt format)",K5_wording,,,1,1,follows K5,K5 adjudicated to 1; wording code set under the wording convention
+adjudication,135,hendrycks2021mmlu,MMLU paper,p6 Sec 4.2 para 'To test the usefulness of fine-tuning' (continues below Fig 6),K5_wording,,,0,1,follows K5,K5 adjudicated to 1; wording code set under the wording convention
+adjudication,142,hendrycks2021mmlu,MMLU paper,p13 Appendix A Fig 10,K5_wording,,,1,1,follows K5,K5 adjudicated to 1; wording code set under the wording convention
+adjudication,147,wang2024mmlupro,MMLU-Pro paper,p2 Sec 1 Introduction para 3 ('Since GPT-4 achieved 86.4%...'),K5_wording,,,1,1,follows K5,K5 adjudicated to 1; wording code set under the wording convention
+adjudication,35,qwen2024qwen2,Qwen2 report,"p9 Table 2 (MMLU, MMLU-Pro, CMMLU rows)",K6_wording,,,0,1,follows K6,K6 adjudicated to 1; wording code set under the wording convention
+adjudication,36,qwen2024qwen2,Qwen2 report,"p10 Table 3 (MMLU, MMLU-Pro, CMMLU rows)",K6_wording,,,0,1,follows K6,K6 adjudicated to 1; wording code set under the wording convention
+adjudication,37,qwen2024qwen2,Qwen2 report,"p11 Table 4 (MMLU, MMLU-Pro, CMMLU rows)",K6_wording,,,0,1,follows K6,K6 adjudicated to 1; wording code set under the wording convention
+adjudication,44,deepseek2024v3,DeepSeek-V3 report,"p25 Table 3 (MMLU, MMLU-Redux, MMLU-Pro, CMMLU, MMMLU rows)",K6_wording,,,0,1,follows K6,K6 adjudicated to 1; wording code set under the wording convention
+adjudication,52,qwen2025qwen3,Qwen3 report,"p6 Tables 3 and 4 (MMLU, MMLU-Redux, MMLU-Pro, MMMLU rows)",K6_wording,,,0,1,follows K6,K6 adjudicated to 1; wording code set under the wording convention
+adjudication,53,qwen2025qwen3,Qwen3 report,p7 Tables 5 and 6,K6_wording,,,0,1,follows K6,K6 adjudicated to 1; wording code set under the wording convention
+adjudication,54,qwen2025qwen3,Qwen3 report,p8 Tables 7 and 8,K6_wording,,,0,1,follows K6,K6 adjudicated to 1; wording code set under the wording convention
+adjudication,81,son2025kmmlu,KMMLU paper,p7 Table 3,K6_wording,0.0,,,1,follows K6,"K6 adjudicated to 0, so its wording code is blank"
+adjudication,83,son2025kmmlu,KMMLU paper,p9 Table 4,K6_wording,1.0,,,1,follows K6,"K6 adjudicated to 0, so its wording code is blank"
+adjudication,109,iasr2026,International AI Safety Report 2026,p27 Sec 1 'What can current general-purpose AI systems do?' para 1,K6_wording,1.0,,,1,follows K6,"K6 adjudicated to 0, so its wording code is blank"
+adjudication,84,son2025kmmlu,KMMLU paper,p19 Fig 10 (human comparison),location,p19 Fig 10 / p20 Fig 11 (human comparison),,p19 Fig 10 (human comparison),1,unit,Fig 11 reports no KMMLU score (the second coder's note agrees)
+adjudication,87,singh2025globalmmlu,Global-MMLU paper,p15 Fig 10 (caption),n_scores,5,,,1,unit,The five printed numbers are standard deviations; the means are plotted
+amendment,38,qwen2024qwen2,Qwen2 report,"p12 Table 5 (MMLU, MMLU-Pro, CMMLU rows)",K6,0,,1,1,"R8, tie-break","Prints English MMLU and Chinese CMMLU results in one table: results displayed for two languages, as in Tables 2 to 4 of the same report. Headings are one instance of the display under R8, not a condition. Reverses the earlier ruling on this cell."
+amendment,38,qwen2024qwen2,Qwen2 report,"p12 Table 5 (MMLU, MMLU-Pro, CMMLU rows)",K6_wording,,,0.0,1,wording,"Display only, no words."
+amendment,30,dubey2024llama3,Llama 3 report,"p34 Table 15 (MMLU, MMLU-Pro rows)",n_scores,8,,,1,unit,No numeral: dashes in every cell.
+amendment,31,dubey2024llama3,Llama 3 report,p35 Sec 5.2.1 'General knowledge' para,n_scores,6,,,1,unit,No numeral: the paragraph prints no MMLU score.
+amendment,99,aiindex2025,AI Index 2025,p4 'Top Takeaways' item 4,n_scores,1,,,1,unit,No numeral.
+amendment,112,anthropic2024claude3card,Claude 3 model card,"p15 Sec 5.6.1 para ""Multilingual MMLU""",n_scores,0,,1,1,unit,"States a bound ('above 80%'), which counts as a score."
+amendment,63,openai2024gpt4o,GPT-4o system card,"p21 Table 7 (12 MMLU rows: six subjects, 0-shot and 5-shot)",n_scores,32,,24,1,count,"Table 7 prints 12 MMLU rows (six subjects at 0-shot and 5-shot) for two models: 24 scores, not 32."
+amendment,63,openai2024gpt4o,GPT-4o system card,"p21 Table 7 (12 MMLU rows: six subjects, 0-shot and 5-shot)",location,"p21 Table 7 (8 MMLU subject rows, 0-shot and 5-shot)",,"p21 Table 7 (12 MMLU rows: six subjects, 0-shot and 5-shot)",1,location,The location names the corrected number of MMLU rows.
+amendment,190,meta2025llama4,Llama 4 announcement,"Image 3, table 'Llama 4 Maverick instruction-tuned benchmarks' (MMLU Pro and Multilingual MMLU rows)",row,,,added,1,unit,"Image table prints MMLU-family scores, found at a later page check; the first pass and the second coding agree on the unit status and on every category code."
+amendment,191,meta2025llama4,Llama 4 announcement,"Image 6, table 'Llama 4 Scout instruction-tuned benchmarks' (MMLU Pro row)",row,,,added,1,unit,"Image table prints MMLU-family scores, found at a later page check; the first pass and the second coding agree on the unit status and on every category code."
+amendment,192,meta2025llama4,Llama 4 announcement,"Image 7, table 'Llama 4 Behemoth instruction-tuned benchmarks' (MMLU Pro and Multilingual MMLU (OpenAI) rows)",row,,,added,1,unit,"Image table prints MMLU-family scores, found at a later page check; the first pass and the second coding agree on the unit status and on every category code."
+adjudication,192,meta2025llama4,Llama 4 announcement,"Image 7, table 'Llama 4 Behemoth instruction-tuned benchmarks' (MMLU Pro and Multilingual MMLU (OpenAI) rows)",K2,1,1,1,0,"R3, tie-break","Flagged alternative (K2 = 0) not taken: note 1, 'Llama model results represent our current best internal runs', fits two readings of R3, as the authors' own pipeline named as such or as a statement of where the scores came from, and the tie-break credits the document."
+adjudication,190,meta2025llama4,Llama 4 announcement,"Image 3, table 'Llama 4 Maverick instruction-tuned benchmarks' (MMLU Pro and Multilingual MMLU rows)",K5,0,0,0,0,R7,Flagged alternative (K5 = 1) not taken: the averaging note names GPQA Diamond and LiveCodeBench only and does not apply to the MMLU-family rows.
+adjudication,191,meta2025llama4,Llama 4 announcement,"Image 6, table 'Llama 4 Scout instruction-tuned benchmarks' (MMLU Pro row)",K5,0,0,0,0,R7,Flagged alternative (K5 = 1) not taken: the averaging note names GPQA Diamond and LiveCodeBench only and does not apply to the MMLU-family rows.
+adjudication,192,meta2025llama4,Llama 4 announcement,"Image 7, table 'Llama 4 Behemoth instruction-tuned benchmarks' (MMLU Pro and Multilingual MMLU (OpenAI) rows)",K5,0,0,0,0,R7,"The first pass's summary flagged K5 = 1 for all three tables, but image 7's notes carry no averaging sentence. They give no statistic and no sensitivity wording, and a 'current best' selection among runs falls outside R7."
+amendment,193,openai2024gpt4o,GPT-4o system card,p8 Sec 3.3.3 sentence 'a subset of MMLU' (footnotes 6 and 7),row,,,added,1,unit,MMLU passage found at a later page check.
+amendment,194,openai2024gpt4o,GPT-4o system card,p9 figure 'Capability evaluations across system and human voices' (MMLU panel),row,,,added,1,unit,MMLU passage found at a later page check.
+adjudication,193,openai2024gpt4o,GPT-4o system card,p8 Sec 3.3.3 sentence 'a subset of MMLU' (footnotes 6 and 7),K2,1,1,1,0,"R3, tie-break","Flagged alternative (K2 = 0) not taken: whether the voice of a spoken input is a prompting condition fits two readings of R3, and the tie-break credits the document."
+adjudication,193,openai2024gpt4o,GPT-4o system card,p8 Sec 3.3.3 sentence 'a subset of MMLU' (footnotes 6 and 7),K4,0,0,0,0,"R2, R9","Flagged alternative reading considered: footnote 7 points on to Section 3.2, and R2 does not say whether that second pointer attaches. Section 3.2 has no words about item errors, and K4 is 0 under either reading."
+adjudication,193,openai2024gpt4o,GPT-4o system card,p8 Sec 3.3.3 sentence 'a subset of MMLU' (footnotes 6 and 7),K6,0,0,0,0,R2,"Flagged alternative (K6 = 1) not taken: the words '27 different English voice samples' sit in the separate 'Evaluations' paragraph, and the event points only to footnotes 6 and 7."
+adjudication,194,openai2024gpt4o,GPT-4o system card,p9 figure 'Capability evaluations across system and human voices' (MMLU panel),K2,1,1,1,0,"R3, tie-break","Flagged alternative (K2 = 0) not taken: the axis label 'Voice System or Human (by native country)' gives the input voice behind each bar, whose status under R3 fits two readings, and the tie-break credits the document. 'X: Accuracy' states no scoring rule, as at rows 98, 143 and 179."
+adjudication,194,openai2024gpt4o,GPT-4o system card,p9 figure 'Capability evaluations across system and human voices' (MMLU panel),K5,0,0,0,0,"R7, R2","Flagged alternative (K5 = 1) not taken: the bars are scores under several input settings with no words, which R7 counts under K2 only. The figure has no caption, note or pointer, and footnote 6 on p8 does not attach to it."
+adjudication,194,openai2024gpt4o,GPT-4o system card,p9 figure 'Capability evaluations across system and human voices' (MMLU panel),K6,0,1,0,0,R8,"R8's display clause needs results for two or more languages, and the figure prints results by the speaker's native country without naming a language. No words at the figure limit language or cultural scope. The cell fits no reading of R8, and the tie-break does not apply."

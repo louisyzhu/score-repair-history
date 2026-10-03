@@ -1,0 +1,8 @@
+{
+  "title": "Position: A Score Should Travel With Its Repair History (data and code)",
+  "upload_type": "dataset",
+  "creators": [{"name": "Zhu, Louis Yiven", "affiliation": "University of Oxford", "orcid": "0009-0001-5579-0340"}],
+  "description": "Coded tally, adjudication logs, second-coding cells, census records and scripts that regenerate every count-derived number and Figure 1 of the position paper, accepted as a poster at the NeurIPS 2026 workshop on AI for Meta-Science.",
+  "license": "cc-by-4.0",
+  "keywords": ["benchmarks", "MMLU", "meta-science", "measurement validity", "benchmark maintenance"]
+}

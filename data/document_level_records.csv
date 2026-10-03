@@ -1,0 +1,22 @@
+doc_id,document,record_type,location,category,quote
+openai2023gpt4,GPT-4 Technical Report,document-level caveat,p32 Table 11,K3,Contamination between GPT-4 pre-training data and academic benchmarks
+openai2023gpt4,GPT-4 Technical Report,document-level caveat,p32 Table 12,K6,"MMLU Example prompt, presented in two different languages"
+touvron2023llama2,Llama 2 report,document-level caveat,p75-76 Sec A.6,K3,We investigate the impact of contamination on the results
+jiang2023mistral7b,Mistral 7B report,document-level caveat,p3-4 Fig 4 caption,K2,All models were re-evaluated on all metrics with our evaluation pipeline
+geminiteam2023gemini,Gemini 1.0 report,document-level caveat,p73-74 Appendix 10.2,K2,uncertainty-routed chain-of-thought
+geminiteam2024gemini15,Gemini 1.5 report,document-level caveat,p134 Appendix 12.13.4,K2,"For MMLU, we add this preamble before the shots"
+dubey2024llama3,Llama 3 report,document-level caveat,p34 Sec 5.1.4 / Table 15,K3,Percentage of evaluation sets considered to be contaminated
+dubey2024llama3,Llama 3 report,document-level caveat,p35 Table 16,K2,Post-training benchmarks by category
+qwen2024qwen2,Qwen2 report,document-level caveat,p19 Table 15,K3,Contamination Analysis. The contaminated samples in this table are identified using a strict criterion
+deepseek2024v3,DeepSeek-V3 report,document-level caveat,p31 Sec 5.3.1,K2,"We utilize the Zero-Eval prompt format (Lin, 2024) for MMLU-Redux in a zero-shot setting"
+deepseek2025r1,DeepSeek-R1 report,document-level caveat,p56 Sec (V3 vs R1 analysis),K7,post-training on DeepSeek-V3 may have already achieved near-saturation performance
+qwen2025qwen3,Qwen3 report,document-level caveat,p13 Table 10,K6,"MMMLU 14 ar, bn, de, en, es, fr, hi, id, it, ja, ko, pt, sw, zh"
+qwen2025qwen3,Qwen3 report,document-level caveat,p13 Sec (multilingual eval),K2,we sample only 10% of the original data to improve evaluation efficiency
+geminiteam2025gemini25,Gemini 2.5 report,document-level caveat,p13 caption cross-ref,K2,See Table 11 Appendix 8.1 for benchmarks and evaluation details
+openai2024gpt4o,GPT-4o system card,document-level caveat,p8 footnote 6,K2,these scores should not be compared with publicly reported benchmarks on the same task
+openai2025gpt5,GPT-5 system card,document-level caveat,p19 Sec 3.11,K6,we used professional human translators to translate MMLU's test set into 13 languages
+qwen2025qwen3,Qwen3 report,coded passage without a score,p13 Sec 'General Tasks' / Table 10,K2,"We utilize benchmarks including MMLU-Redux (Gema et al., 2024)"
+qwen2025qwen3,Qwen3 report,coded passage without a score,p13 Sec 'General Tasks' / Table 10,K6,"We utilize benchmarks including MMLU-Redux (Gema et al., 2024)"
+openai2024gpt4o,GPT-4o system card,coded passage without a score,p8 Sec 3.1 'Capabilities' para + footnotes 6-7,K2,"We evaluate on four tasks: TriviaQA, a subset of MMLU, HellaSwag and Lambada"
+openai2025gpt5,GPT-5 system card,coded passage without a score,p19 Sec 3.11 'Multilingual Performance' para,K2,we used professional human translators to translate MMLU's test set into 13 languages
+openai2025gpt5,GPT-5 system card,coded passage without a score,p19 Sec 3.11 'Multilingual Performance' para,K6,we used professional human translators to translate MMLU's test set into 13 languages

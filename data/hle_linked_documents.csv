@@ -1,0 +1,10 @@
+event_id,doc_id,document,category,reading,statement
+6,google2026gemini38flash,Gemini 3.8 Flash card,K2,linked methodology document attached,'All Gemini scores are pass @1'
+6,google2026gemini38flash,Gemini 3.8 Flash card,K4,linked methodology document attached,'We exclude the 689 items from the original HLE set identified as uncertain'
+7,google2026gemini37flash,Gemini 3.7 Flash card,K2,linked methodology document attached,'All Gemini scores are pass @1'
+7,google2026gemini37flash,Gemini 3.7 Flash card,K4,linked methodology document attached,'We exclude the 689 items from the original HLE set identified as uncertain'
+13,meta2026museglimmer,Muse Glimmer-30B card,K2,linked methodology document attached,'No tool use is permitted'
+6,google2026gemini38flash,Gemini 3.8 Flash card,K5,possible aggregate addition,the methodology document notes that content filters blocked some questions for a comparison model (paraphrase)
+7,google2026gemini37flash,Gemini 3.7 Flash card,K5,possible aggregate addition,the methodology document notes that content filters blocked some questions for a comparison model (paraphrase)
+9,meta2026musespark,Muse Spark announcement,K5,possible aggregate addition,the methodology document notes that third-party results 'may not reflect these models' best performance'
+11,meta2026musespark,Muse Spark announcement,K5,possible aggregate addition,the methodology document notes that third-party results 'may not reflect these models' best performance'

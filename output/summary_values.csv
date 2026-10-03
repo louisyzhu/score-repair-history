@@ -1,0 +1,696 @@
+section,quantity,value,printed
+corpus,coded rows,194,194
+corpus,documents with coded rows,26,26
+corpus,further rows recording a release document with no MMLU-family score,1,1 (Claude 4 system card)
+corpus,reporting events (score or plotted),170,170
+corpus,rows that report no model score,24,"24 (not_score 17, no_numeral 7)"
+corpus,printed scores (score),139,139
+corpus,"documents with events, construction paper",1,1
+corpus,"documents with events, repair papers",5,5
+corpus,"documents with events, model reports",16,16
+corpus,"documents with events, leaderboard post",1,1
+corpus,"documents with events, governance syntheses",3,3
+corpus,coded rows from the first pass,117,"117 (110 in the primary corpus, 7 from vendor documents added later)"
+corpus,rows the completeness searches added,72,"72 (construction paper 11, repair papers 38, model reports 16, leaderboard post 1, governance syntheses 6)"
+corpus,rows the later page checks added,5,"5 (Llama 4 announcement 3, GPT-4o system card 2)"
+corpus,surveyed release documents that print an MMLU-family score,16,16 of 17
+headline,Construction paper | events,17,17
+headline,Construction paper | documents,1,1
+headline,Construction paper | mean,1.588235294117647,1.59
+headline,Construction paper | with none,2,2
+headline,Construction paper | share with none,0.11764705882352941,12%
+headline,Repair papers | events,57,57
+headline,Repair papers | documents,5,5
+headline,Repair papers | mean,1.7017543859649122,1.70
+headline,Repair papers | with none,4,4
+headline,Repair papers | share with none,0.07017543859649122,7%
+headline,"Model reports, all | events",77,77
+headline,"Model reports, all | documents",16,16
+headline,"Model reports, all | mean",1.051948051948052,1.05
+headline,"Model reports, all | with none",16,16
+headline,"Model reports, all | share with none",0.2077922077922078,21%
+headline,"Model reports, before June 2024 | events",27,27
+headline,"Model reports, before June 2024 | documents",6,6
+headline,"Model reports, before June 2024 | mean",1.0740740740740742,1.07
+headline,"Model reports, before June 2024 | with none",6,6
+headline,"Model reports, before June 2024 | share with none",0.2222222222222222,22%
+headline,"Model reports, after June 2024 | events",49,49
+headline,"Model reports, after June 2024 | documents",9,9
+headline,"Model reports, after June 2024 | mean",1.0408163265306123,1.04
+headline,"Model reports, after June 2024 | with none",10,10
+headline,"Model reports, after June 2024 | share with none",0.20408163265306123,20%
+headline,Leaderboard post | events,2,2
+headline,Leaderboard post | documents,1,1
+headline,Leaderboard post | mean,1.5,1.50
+headline,Leaderboard post | with none,0,0
+headline,Leaderboard post | share with none,0.0,0%
+headline,Governance syntheses | events,17,17
+headline,Governance syntheses | documents,3,3
+headline,Governance syntheses | mean,0.47058823529411764,0.47
+headline,Governance syntheses | with none,11,11
+headline,Governance syntheses | share with none,0.6470588235294118,65%
+readings,Headline | Construction paper | mean,1.588235294117647,1.59
+readings,Headline | Construction paper | share with none,0.11764705882352941,12%
+readings,Headline | Repair papers | mean,1.7017543859649122,1.70
+readings,Headline | Repair papers | share with none,0.07017543859649122,7%
+readings,"Headline | Model reports, all | mean",1.051948051948052,1.05
+readings,"Headline | Model reports, all | share with none",0.2077922077922078,21%
+readings,"Headline | Model reports, before June 2024 | mean",1.0740740740740742,1.07
+readings,"Headline | Model reports, before June 2024 | share with none",0.2222222222222222,22%
+readings,"Headline | Model reports, after June 2024 | mean",1.0408163265306123,1.04
+readings,"Headline | Model reports, after June 2024 | share with none",0.20408163265306123,20%
+readings,Headline | Leaderboard post | mean,1.5,1.50
+readings,Headline | Leaderboard post | share with none,0.0,0%
+readings,Headline | Governance syntheses | mean,0.47058823529411764,0.47
+readings,Headline | Governance syntheses | share with none,0.6470588235294118,65%
+readings,Stated only | Construction paper | mean,1.1764705882352942,1.18
+readings,Stated only | Construction paper | share with none,0.23529411764705882,24%
+readings,Stated only | Repair papers | mean,1.263157894736842,1.26
+readings,Stated only | Repair papers | share with none,0.12280701754385964,12%
+readings,"Stated only | Model reports, all | mean",0.6753246753246753,0.68
+readings,"Stated only | Model reports, all | share with none",0.4805194805194805,48%
+readings,"Stated only | Model reports, before June 2024 | mean",0.8888888888888888,0.89
+readings,"Stated only | Model reports, before June 2024 | share with none",0.2962962962962963,30%
+readings,"Stated only | Model reports, after June 2024 | mean",0.5510204081632653,0.55
+readings,"Stated only | Model reports, after June 2024 | share with none",0.5918367346938775,59%
+readings,Stated only | Leaderboard post | mean,1.5,1.50
+readings,Stated only | Leaderboard post | share with none,0.0,0%
+readings,Stated only | Governance syntheses | mean,0.47058823529411764,0.47
+readings,Stated only | Governance syntheses | share with none,0.6470588235294118,65%
+readings,Documents weighted | Construction paper | mean,1.588235294117647,1.59
+readings,Documents weighted | Construction paper | share with none,0.11764705882352941,12%
+readings,Documents weighted | Repair papers | mean,1.8585281385281385,1.86
+readings,Documents weighted | Repair papers | share with none,0.05636363636363637,6%
+readings,"Documents weighted | Model reports, all | mean",1.1646205357142856,1.16
+readings,"Documents weighted | Model reports, all | share with none",0.15963541666666664,16%
+readings,"Documents weighted | Model reports, before June 2024 | mean",0.998015873015873,1.00
+readings,"Documents weighted | Model reports, before June 2024 | share with none",0.24999999999999997,25%
+readings,"Documents weighted | Model reports, after June 2024 | mean",1.2939814814814814,1.29
+readings,"Documents weighted | Model reports, after June 2024 | share with none",0.11712962962962964,12%
+readings,Documents weighted | Leaderboard post | mean,1.5,1.50
+readings,Documents weighted | Leaderboard post | share with none,0.0,0%
+readings,Documents weighted | Governance syntheses | mean,0.37606837606837606,0.38
+readings,Documents weighted | Governance syntheses | share with none,0.6752136752136751,68%
+readings,K5 and K6 dropped | Construction paper | mean,0.7647058823529411,0.76
+readings,K5 and K6 dropped | Construction paper | share with none,0.29411764705882354,29%
+readings,K5 and K6 dropped | Repair papers | mean,0.9298245614035088,0.93
+readings,K5 and K6 dropped | Repair papers | share with none,0.24561403508771928,25%
+readings,"K5 and K6 dropped | Model reports, all | mean",0.4935064935064935,0.49
+readings,"K5 and K6 dropped | Model reports, all | share with none",0.5194805194805194,52%
+readings,"K5 and K6 dropped | Model reports, before June 2024 | mean",0.6666666666666666,0.67
+readings,"K5 and K6 dropped | Model reports, before June 2024 | share with none",0.37037037037037035,37%
+readings,"K5 and K6 dropped | Model reports, after June 2024 | mean",0.3877551020408163,0.39
+readings,"K5 and K6 dropped | Model reports, after June 2024 | share with none",0.6122448979591837,61%
+readings,K5 and K6 dropped | Leaderboard post | mean,1.0,1.00
+readings,K5 and K6 dropped | Leaderboard post | share with none,0.0,0%
+readings,K5 and K6 dropped | Governance syntheses | mean,0.29411764705882354,0.29
+readings,K5 and K6 dropped | Governance syntheses | share with none,0.8235294117647058,82%
+readings,Printed only | Construction paper | mean,1.3333333333333333,1.33
+readings,Printed only | Construction paper | share with none,0.2222222222222222,22%
+readings,Printed only | Repair papers | mean,1.7045454545454546,1.70
+readings,Printed only | Repair papers | share with none,0.045454545454545456,5%
+readings,"Printed only | Model reports, all | mean",1.0422535211267605,1.04
+readings,"Printed only | Model reports, all | share with none",0.2112676056338028,21%
+readings,"Printed only | Model reports, before June 2024 | mean",1.125,1.13
+readings,"Printed only | Model reports, before June 2024 | share with none",0.20833333333333334,21%
+readings,"Printed only | Model reports, after June 2024 | mean",1.0,1.00
+readings,"Printed only | Model reports, after June 2024 | share with none",0.21739130434782608,22%
+readings,Printed only | Leaderboard post | mean,1.5,1.50
+readings,Printed only | Leaderboard post | share with none,0.0,0%
+readings,Printed only | Governance syntheses | mean,0.46153846153846156,0.46
+readings,Printed only | Governance syntheses | share with none,0.6923076923076923,69%
+readings,Every row | Construction paper | mean,1.55,1.55
+readings,Every row | Construction paper | share with none,0.1,10%
+readings,Every row | Repair papers | mean,1.7142857142857142,1.71
+readings,Every row | Repair papers | share with none,0.06349206349206349,6%
+readings,"Every row | Model reports, all | mean",1.0588235294117647,1.06
+readings,"Every row | Model reports, all | share with none",0.21176470588235294,21%
+readings,"Every row | Model reports, before June 2024 | mean",1.0333333333333334,1.03
+readings,"Every row | Model reports, before June 2024 | share with none",0.26666666666666666,27%
+readings,"Every row | Model reports, after June 2024 | mean",1.0754716981132075,1.08
+readings,"Every row | Model reports, after June 2024 | share with none",0.18867924528301888,19%
+readings,Every row | Leaderboard post | mean,1.3333333333333333,1.33
+readings,Every row | Leaderboard post | share with none,0.0,0%
+readings,Every row | Governance syntheses | mean,0.6086956521739131,0.61
+readings,Every row | Governance syntheses | share with none,0.5652173913043478,57%
+readings,Before adjudication | Construction paper | mean,1.4705882352941178,1.47
+readings,Before adjudication | Construction paper | share with none,0.058823529411764705,6%
+readings,Before adjudication | Repair papers | mean,1.8771929824561404,1.88
+readings,Before adjudication | Repair papers | share with none,0.05263157894736842,5%
+readings,"Before adjudication | Model reports, all | mean",1.051948051948052,1.05
+readings,"Before adjudication | Model reports, all | share with none",0.22077922077922077,22%
+readings,"Before adjudication | Model reports, before June 2024 | mean",1.2592592592592593,1.26
+readings,"Before adjudication | Model reports, before June 2024 | share with none",0.1111111111111111,11%
+readings,"Before adjudication | Model reports, after June 2024 | mean",0.9387755102040817,0.94
+readings,"Before adjudication | Model reports, after June 2024 | share with none",0.2857142857142857,29%
+readings,Before adjudication | Leaderboard post | mean,1.5,1.50
+readings,Before adjudication | Leaderboard post | share with none,0.0,0%
+readings,Before adjudication | Governance syntheses | mean,1.0,1.00
+readings,Before adjudication | Governance syntheses | share with none,0.47058823529411764,47%
+readings,"Events, headline | Construction paper",17,17
+readings,"Events, headline | Repair papers",57,57
+readings,"Events, headline | Model reports, all",77,77
+readings,"Events, headline | Model reports, before June 2024",27,27
+readings,"Events, headline | Model reports, after June 2024",49,49
+readings,"Events, headline | Leaderboard post",2,2
+readings,"Events, headline | Governance syntheses",17,17
+readings,"Events, printed only | Construction paper",9,9
+readings,"Events, printed only | Repair papers",44,44
+readings,"Events, printed only | Model reports, all",71,71
+readings,"Events, printed only | Model reports, before June 2024",24,24
+readings,"Events, printed only | Model reports, after June 2024",46,46
+readings,"Events, printed only | Leaderboard post",2,2
+readings,"Events, printed only | Governance syntheses",13,13
+readings,"Rows, every row | Construction paper",20,20
+readings,"Rows, every row | Repair papers",63,63
+readings,"Rows, every row | Model reports, all",85,85
+readings,"Rows, every row | Model reports, before June 2024",30,30
+readings,"Rows, every row | Model reports, after June 2024",53,53
+readings,"Rows, every row | Leaderboard post",3,3
+readings,"Rows, every row | Governance syntheses",23,23
+readings,"fall, Headline",0.38184495916454675,38%
+readings,"fall, Stated only",0.4653679653679653,47%
+readings,"fall, Documents weighted",0.3733640553666263,37%
+readings,"fall, K5 and K6 dropped",0.46924773339867676,47%
+readings,"fall, Printed only",0.38854460093896714,39%
+readings,"fall, Every row",0.38235294117647056,38%
+readings,"fall, Before adjudication",0.4396164583080471,44%
+readings,range of the fall across the seven readings,"(0.3733640553666263, 0.46924773339867676)",between 37% and 47%
+readings,Headline | Construction paper | n,17,17
+readings,Headline | Construction paper | docs,1,1
+readings,Headline | Construction paper | none,2,2
+readings,Headline | Repair papers | n,57,57
+readings,Headline | Repair papers | docs,5,5
+readings,Headline | Repair papers | none,4,4
+readings,"Headline | Model reports, all | n",77,77
+readings,"Headline | Model reports, all | docs",16,16
+readings,"Headline | Model reports, all | none",16,16
+readings,"Headline | Model reports, before June 2024 | n",27,27
+readings,"Headline | Model reports, before June 2024 | docs",6,6
+readings,"Headline | Model reports, before June 2024 | none",6,6
+readings,"Headline | Model reports, after June 2024 | n",49,49
+readings,"Headline | Model reports, after June 2024 | docs",9,9
+readings,"Headline | Model reports, after June 2024 | none",10,10
+readings,Headline | Leaderboard post | n,2,2
+readings,Headline | Leaderboard post | docs,1,1
+readings,Headline | Leaderboard post | none,0,0
+readings,Headline | Governance syntheses | n,17,17
+readings,Headline | Governance syntheses | docs,3,3
+readings,Headline | Governance syntheses | none,11,11
+readings,Stated only | Construction paper | n,17,17
+readings,Stated only | Construction paper | docs,1,1
+readings,Stated only | Construction paper | none,4,4
+readings,Stated only | Repair papers | n,57,57
+readings,Stated only | Repair papers | docs,5,5
+readings,Stated only | Repair papers | none,7,7
+readings,"Stated only | Model reports, all | n",77,77
+readings,"Stated only | Model reports, all | docs",16,16
+readings,"Stated only | Model reports, all | none",37,37
+readings,"Stated only | Model reports, before June 2024 | n",27,27
+readings,"Stated only | Model reports, before June 2024 | docs",6,6
+readings,"Stated only | Model reports, before June 2024 | none",8,8
+readings,"Stated only | Model reports, after June 2024 | n",49,49
+readings,"Stated only | Model reports, after June 2024 | docs",9,9
+readings,"Stated only | Model reports, after June 2024 | none",29,29
+readings,Stated only | Leaderboard post | n,2,2
+readings,Stated only | Leaderboard post | docs,1,1
+readings,Stated only | Leaderboard post | none,0,0
+readings,Stated only | Governance syntheses | n,17,17
+readings,Stated only | Governance syntheses | docs,3,3
+readings,Stated only | Governance syntheses | none,11,11
+readings,Documents weighted | Construction paper | n,17,17
+readings,Documents weighted | Construction paper | docs,1,1
+readings,Documents weighted | Construction paper | none,2,2
+readings,Documents weighted | Repair papers | n,57,57
+readings,Documents weighted | Repair papers | docs,5,5
+readings,Documents weighted | Repair papers | none,4,4
+readings,"Documents weighted | Model reports, all | n",77,77
+readings,"Documents weighted | Model reports, all | docs",16,16
+readings,"Documents weighted | Model reports, all | none",16,16
+readings,"Documents weighted | Model reports, before June 2024 | n",27,27
+readings,"Documents weighted | Model reports, before June 2024 | docs",6,6
+readings,"Documents weighted | Model reports, before June 2024 | none",6,6
+readings,"Documents weighted | Model reports, after June 2024 | n",49,49
+readings,"Documents weighted | Model reports, after June 2024 | docs",9,9
+readings,"Documents weighted | Model reports, after June 2024 | none",10,10
+readings,Documents weighted | Leaderboard post | n,2,2
+readings,Documents weighted | Leaderboard post | docs,1,1
+readings,Documents weighted | Leaderboard post | none,0,0
+readings,Documents weighted | Governance syntheses | n,17,17
+readings,Documents weighted | Governance syntheses | docs,3,3
+readings,Documents weighted | Governance syntheses | none,11,11
+readings,K5 and K6 dropped | Construction paper | n,17,17
+readings,K5 and K6 dropped | Construction paper | docs,1,1
+readings,K5 and K6 dropped | Construction paper | none,5,5
+readings,K5 and K6 dropped | Repair papers | n,57,57
+readings,K5 and K6 dropped | Repair papers | docs,5,5
+readings,K5 and K6 dropped | Repair papers | none,14,14
+readings,"K5 and K6 dropped | Model reports, all | n",77,77
+readings,"K5 and K6 dropped | Model reports, all | docs",16,16
+readings,"K5 and K6 dropped | Model reports, all | none",40,40
+readings,"K5 and K6 dropped | Model reports, before June 2024 | n",27,27
+readings,"K5 and K6 dropped | Model reports, before June 2024 | docs",6,6
+readings,"K5 and K6 dropped | Model reports, before June 2024 | none",10,10
+readings,"K5 and K6 dropped | Model reports, after June 2024 | n",49,49
+readings,"K5 and K6 dropped | Model reports, after June 2024 | docs",9,9
+readings,"K5 and K6 dropped | Model reports, after June 2024 | none",30,30
+readings,K5 and K6 dropped | Leaderboard post | n,2,2
+readings,K5 and K6 dropped | Leaderboard post | docs,1,1
+readings,K5 and K6 dropped | Leaderboard post | none,0,0
+readings,K5 and K6 dropped | Governance syntheses | n,17,17
+readings,K5 and K6 dropped | Governance syntheses | docs,3,3
+readings,K5 and K6 dropped | Governance syntheses | none,14,14
+readings,Printed only | Construction paper | n,9,9
+readings,Printed only | Construction paper | docs,1,1
+readings,Printed only | Construction paper | none,2,2
+readings,Printed only | Repair papers | n,44,44
+readings,Printed only | Repair papers | docs,5,5
+readings,Printed only | Repair papers | none,2,2
+readings,"Printed only | Model reports, all | n",71,71
+readings,"Printed only | Model reports, all | docs",16,16
+readings,"Printed only | Model reports, all | none",15,15
+readings,"Printed only | Model reports, before June 2024 | n",24,24
+readings,"Printed only | Model reports, before June 2024 | docs",6,6
+readings,"Printed only | Model reports, before June 2024 | none",5,5
+readings,"Printed only | Model reports, after June 2024 | n",46,46
+readings,"Printed only | Model reports, after June 2024 | docs",9,9
+readings,"Printed only | Model reports, after June 2024 | none",10,10
+readings,Printed only | Leaderboard post | n,2,2
+readings,Printed only | Leaderboard post | docs,1,1
+readings,Printed only | Leaderboard post | none,0,0
+readings,Printed only | Governance syntheses | n,13,13
+readings,Printed only | Governance syntheses | docs,3,3
+readings,Printed only | Governance syntheses | none,9,9
+readings,Every row | Construction paper | n,20,20
+readings,Every row | Construction paper | docs,1,1
+readings,Every row | Construction paper | none,2,2
+readings,Every row | Repair papers | n,63,63
+readings,Every row | Repair papers | docs,5,5
+readings,Every row | Repair papers | none,4,4
+readings,"Every row | Model reports, all | n",85,85
+readings,"Every row | Model reports, all | docs",16,16
+readings,"Every row | Model reports, all | none",18,18
+readings,"Every row | Model reports, before June 2024 | n",30,30
+readings,"Every row | Model reports, before June 2024 | docs",6,6
+readings,"Every row | Model reports, before June 2024 | none",8,8
+readings,"Every row | Model reports, after June 2024 | n",53,53
+readings,"Every row | Model reports, after June 2024 | docs",9,9
+readings,"Every row | Model reports, after June 2024 | none",10,10
+readings,Every row | Leaderboard post | n,3,3
+readings,Every row | Leaderboard post | docs,1,1
+readings,Every row | Leaderboard post | none,0,0
+readings,Every row | Governance syntheses | n,23,23
+readings,Every row | Governance syntheses | docs,3,3
+readings,Every row | Governance syntheses | none,13,13
+readings,Before adjudication | Construction paper | n,17,17
+readings,Before adjudication | Construction paper | docs,1,1
+readings,Before adjudication | Construction paper | none,1,1
+readings,Before adjudication | Repair papers | n,57,57
+readings,Before adjudication | Repair papers | docs,5,5
+readings,Before adjudication | Repair papers | none,3,3
+readings,"Before adjudication | Model reports, all | n",77,77
+readings,"Before adjudication | Model reports, all | docs",16,16
+readings,"Before adjudication | Model reports, all | none",17,17
+readings,"Before adjudication | Model reports, before June 2024 | n",27,27
+readings,"Before adjudication | Model reports, before June 2024 | docs",6,6
+readings,"Before adjudication | Model reports, before June 2024 | none",3,3
+readings,"Before adjudication | Model reports, after June 2024 | n",49,49
+readings,"Before adjudication | Model reports, after June 2024 | docs",9,9
+readings,"Before adjudication | Model reports, after June 2024 | none",14,14
+readings,Before adjudication | Leaderboard post | n,2,2
+readings,Before adjudication | Leaderboard post | docs,1,1
+readings,Before adjudication | Leaderboard post | none,0,0
+readings,Before adjudication | Governance syntheses | n,17,17
+readings,Before adjudication | Governance syntheses | docs,3,3
+readings,Before adjudication | Governance syntheses | none,8,8
+uncertainty,"mean, construction paper | estimate",1.588235294117647,1.59
+uncertainty,"mean, construction paper | lo",1.588235294117647,1.59
+uncertainty,"mean, construction paper | hi",1.588235294117647,1.59
+uncertainty,"mean, construction paper | note",one document: no between-document variation,one document: no between-document variation
+uncertainty,"share bare, construction paper | estimate",0.11764705882352941,12%
+uncertainty,"share bare, construction paper | lo",0.11764705882352941,12%
+uncertainty,"share bare, construction paper | hi",0.11764705882352941,12%
+uncertainty,"share bare, construction paper | note",one document: no between-document variation,one document: no between-document variation
+uncertainty,"document-weighted mean, construction paper | estimate",1.588235294117647,1.59
+uncertainty,"document-weighted mean, construction paper | lo",1.588235294117647,1.59
+uncertainty,"document-weighted mean, construction paper | hi",1.588235294117647,1.59
+uncertainty,"document-weighted mean, construction paper | note",one document: no between-document variation,one document: no between-document variation
+uncertainty,"mean, repair papers | estimate",1.7017543859649122,1.70
+uncertainty,"mean, repair papers | lo",1.4745762711864407,1.47
+uncertainty,"mean, repair papers | hi",2.076923076923077,2.08
+uncertainty,"mean, repair papers | note",5 documents,5 documents
+uncertainty,"share bare, repair papers | estimate",0.07017543859649122,7%
+uncertainty,"share bare, repair papers | lo",0.0,0%
+uncertainty,"share bare, repair papers | hi",0.13636363636363635,14%
+uncertainty,"share bare, repair papers | note",5 documents,5 documents
+uncertainty,"document-weighted mean, repair papers | estimate",1.8585281385281385,1.86
+uncertainty,"document-weighted mean, repair papers | lo",1.4827705627705627,1.48
+uncertainty,"document-weighted mean, repair papers | hi",2.4509090909090907,2.45
+uncertainty,"document-weighted mean, repair papers | note",5 documents,5 documents
+uncertainty,"mean, model reports | estimate",1.051948051948052,1.05
+uncertainty,"mean, model reports | lo",0.85,0.85
+uncertainty,"mean, model reports | hi",1.3191489361702127,1.32
+uncertainty,"mean, model reports | note",16 documents,16 documents
+uncertainty,"share bare, model reports | estimate",0.2077922077922078,21%
+uncertainty,"share bare, model reports | lo",0.1,10%
+uncertainty,"share bare, model reports | hi",0.3142989417989416,31%
+uncertainty,"share bare, model reports | note",16 documents,16 documents
+uncertainty,"document-weighted mean, model reports | estimate",1.1646205357142856,1.16
+uncertainty,"document-weighted mean, model reports | lo",0.9481640625,0.95
+uncertainty,"document-weighted mean, model reports | hi",1.3797619047619047,1.38
+uncertainty,"document-weighted mean, model reports | note",16 documents,16 documents
+uncertainty,"mean, leaderboard post | estimate",1.5,1.50
+uncertainty,"mean, leaderboard post | lo",1.5,1.50
+uncertainty,"mean, leaderboard post | hi",1.5,1.50
+uncertainty,"mean, leaderboard post | note",one document: no between-document variation,one document: no between-document variation
+uncertainty,"share bare, leaderboard post | estimate",0.0,0%
+uncertainty,"share bare, leaderboard post | lo",0.0,0%
+uncertainty,"share bare, leaderboard post | hi",0.0,0%
+uncertainty,"share bare, leaderboard post | note",one document: no between-document variation,one document: no between-document variation
+uncertainty,"document-weighted mean, leaderboard post | estimate",1.5,1.50
+uncertainty,"document-weighted mean, leaderboard post | lo",1.5,1.50
+uncertainty,"document-weighted mean, leaderboard post | hi",1.5,1.50
+uncertainty,"document-weighted mean, leaderboard post | note",one document: no between-document variation,one document: no between-document variation
+uncertainty,"mean, governance syntheses | estimate",0.47058823529411764,0.47
+uncertainty,"mean, governance syntheses | lo",0.0,0.00
+uncertainty,"mean, governance syntheses | hi",0.6666666666666666,0.67
+uncertainty,"mean, governance syntheses | note",3 documents,3 documents
+uncertainty,"share bare, governance syntheses | estimate",0.6470588235294118,65%
+uncertainty,"share bare, governance syntheses | lo",0.3333333333333333,33%
+uncertainty,"share bare, governance syntheses | hi",1.0,100%
+uncertainty,"share bare, governance syntheses | note",3 documents,3 documents
+uncertainty,"document-weighted mean, governance syntheses | estimate",0.37606837606837606,0.38
+uncertainty,"document-weighted mean, governance syntheses | lo",0.0,0.00
+uncertainty,"document-weighted mean, governance syntheses | hi",0.6666666666666666,0.67
+uncertainty,"document-weighted mean, governance syntheses | note",3 documents,3 documents
+uncertainty,"mean, model reports before June 2024 | estimate",1.0740740740740742,1.07
+uncertainty,"mean, model reports before June 2024 | lo",0.6956521739130435,0.70
+uncertainty,"mean, model reports before June 2024 | hi",1.3870967741935485,1.39
+uncertainty,"mean, model reports before June 2024 | note",6 documents,6 documents
+uncertainty,"share bare, model reports before June 2024 | estimate",0.2222222222222222,22%
+uncertainty,"share bare, model reports before June 2024 | lo",0.06060606060606061,6%
+uncertainty,"share bare, model reports before June 2024 | hi",0.43478260869565216,43%
+uncertainty,"share bare, model reports before June 2024 | note",6 documents,6 documents
+uncertainty,"document-weighted mean, model reports before June 2024 | estimate",0.998015873015873,1.00
+uncertainty,"document-weighted mean, model reports before June 2024 | lo",0.6388888888888888,0.64
+uncertainty,"document-weighted mean, model reports before June 2024 | hi",1.3412698412698412,1.34
+uncertainty,"document-weighted mean, model reports before June 2024 | note",6 documents,6 documents
+uncertainty,"mean, model reports after June 2024 | estimate",1.0408163265306123,1.04
+uncertainty,"mean, model reports after June 2024 | lo",0.8,0.80
+uncertainty,"mean, model reports after June 2024 | hi",1.5,1.50
+uncertainty,"mean, model reports after June 2024 | note",9 documents,9 documents
+uncertainty,"share bare, model reports after June 2024 | estimate",0.20408163265306123,20%
+uncertainty,"share bare, model reports after June 2024 | lo",0.05714285714285714,6%
+uncertainty,"share bare, model reports after June 2024 | hi",0.3333333333333333,33%
+uncertainty,"share bare, model reports after June 2024 | note",9 documents,9 documents
+uncertainty,"document-weighted mean, model reports after June 2024 | estimate",1.2939814814814814,1.29
+uncertainty,"document-weighted mean, model reports after June 2024 | lo",1.0004629629629629,1.00
+uncertainty,"document-weighted mean, model reports after June 2024 | hi",1.5778124999999996,1.58
+uncertainty,"document-weighted mean, model reports after June 2024 | note",9 documents,9 documents
+uncertainty,"gap, model reports below repair papers (share of repair-paper mean) | estimate",0.38184495916454675,38%
+uncertainty,"gap, model reports below repair papers (share of repair-paper mean) | lo",0.18959685144358968,19%
+uncertainty,"gap, model reports below repair papers (share of repair-paper mean) | hi",0.5357142857142857,54%
+uncertainty,"gap, model reports below repair papers (share of repair-paper mean) | note",P(gap <= 0) = 0.0001,P(gap <= 0) = 0.0001
+uncertainty,"gap, document-weighted | estimate",0.3733640553666263,37%
+uncertainty,"gap, document-weighted | lo",0.14586935133257112,15%
+uncertainty,"gap, document-weighted | hi",0.5528231215715619,55%
+uncertainty,"gap, document-weighted | note",P(gap <= 0) = 0.0004,P(gap <= 0) = 0.0004
+uncertainty,"gap, post-June-2024 reports below repair papers | estimate",0.38838628234799066,39%
+uncertainty,"gap, post-June-2024 reports below repair papers | lo",0.09721463585434184,10%
+uncertainty,"gap, post-June-2024 reports below repair papers | hi",0.5578261095280395,56%
+uncertainty,"gap, post-June-2024 reports below repair papers | note",P(gap <= 0) = 0.0033,P(gap <= 0) = 0.0033
+uncertainty,"gap, post-June-2024 reports below repair papers, document-weighted | estimate",0.3037600805408036,30%
+uncertainty,"gap, post-June-2024 reports below repair papers, document-weighted | lo",0.03647502724098268,4%
+uncertainty,"gap, post-June-2024 reports below repair papers, document-weighted | hi",0.5137851154515662,51%
+uncertainty,"gap, post-June-2024 reports below repair papers, document-weighted | note",P(gap <= 0) = 0.0120,P(gap <= 0) = 0.0120
+uncertainty,"difference in mean, after minus before June 2024 | estimate",-0.03325774754346189,-0.03
+uncertainty,"difference in mean, after minus before June 2024 | lo",-0.4283153886554622,-0.43
+uncertainty,"difference in mean, after minus before June 2024 | hi",0.5461776443156717,0.55
+uncertainty,"difference in mean, after minus before June 2024 | note",P(diff > 0) = 0.5015,P(diff > 0) = 0.5015
+uncertainty,"difference in document-weighted mean, after minus before June 2024 | estimate",0.2959656084656084,0.30
+uncertainty,"difference in document-weighted mean, after minus before June 2024 | lo",-0.1593435846560843,-0.16
+uncertainty,"difference in document-weighted mean, after minus before June 2024 | hi",0.7574074074074074,0.76
+uncertainty,"difference in document-weighted mean, after minus before June 2024 | note",P(diff > 0) = 0.8976,P(diff > 0) = 0.8976
+uncertainty,"mean, HLE events | estimate",0.7857142857142857,0.79
+uncertainty,"mean, HLE events | lo",0.4,0.40
+uncertainty,"mean, HLE events | hi",1.0714285714285714,1.07
+uncertainty,"mean, HLE events | note",9 documents,9 documents
+uncertainty,"share bare, HLE events | estimate",0.2857142857142857,29%
+uncertainty,"share bare, HLE events | lo",0.06666666666666667,7%
+uncertainty,"share bare, HLE events | hi",0.6,60%
+uncertainty,"share bare, HLE events | note",9 documents,9 documents
+uncertainty,item error at model-report events | estimate,0.0,0%
+uncertainty,item error at model-report events | lo,0.0,0%
+uncertainty,item error at model-report events | hi,0.0467780681604041,5%
+uncertainty,item error at model-report events | note,0 of 77,0 of 77
+uncertainty,"item error at model-report events, documents with any | estimate",0.0,0%
+uncertainty,"item error at model-report events, documents with any | lo",0.0,0%
+uncertainty,"item error at model-report events, documents with any | hi",0.2059072142078227,21%
+uncertainty,"item error at model-report events, documents with any | note",0 of 16,0 of 16
+uncertainty,saturation at model-report events | estimate,0.0,0%
+uncertainty,saturation at model-report events | lo,0.0,0%
+uncertainty,saturation at model-report events | hi,0.0467780681604041,5%
+uncertainty,saturation at model-report events | note,0 of 77,0 of 77
+uncertainty,"saturation at model-report events, documents with any | estimate",0.0,0%
+uncertainty,"saturation at model-report events, documents with any | lo",0.0,0%
+uncertainty,"saturation at model-report events, documents with any | hi",0.2059072142078227,21%
+uncertainty,"saturation at model-report events, documents with any | note",0 of 16,0 of 16
+uncertainty,"HLE item error, events | estimate",0.0,0%
+uncertainty,"HLE item error, events | lo",0.0,0%
+uncertainty,"HLE item error, events | hi",0.23163576165011646,23%
+uncertainty,"HLE item error, events | note",0 of 14,0 of 14
+uncertainty,"HLE item error, documents with any | estimate",0.0,0%
+uncertainty,"HLE item error, documents with any | lo",0.0,0%
+uncertainty,"HLE item error, documents with any | hi",0.3362671168799428,34%
+uncertainty,"HLE item error, documents with any | note",0 of 9,0 of 9
+qualifications,item error at model-report events,0,0 of 77
+qualifications,saturation at model-report events,0,0 of 77
+qualifications,"item error at model-report events, first pass",0,0 of 77
+qualifications,"saturation at model-report events, first pass",5,5 of 77
+qualifications,contamination at model-report events,4,4 of 77
+qualifications,item error at repair-paper events,4,4 of 57
+qualifications,saturation at repair-paper events,7,7 of 57
+qualifications,contamination at repair-paper events,5,5 of 57
+qualifications,"item error at score events, all classes",5,5 of 170
+qualifications,item error at rows that report no model score,6,6 of 24
+timing,events before June 2024,27,"27 events in 6 reports, mean 1.07, 6 with none (22%)"
+timing,mean before June 2024,1.0740740740740742,1.07
+timing,share with none before June 2024,0.2222222222222222,22%
+timing,events after June 2024,49,"49 events in 9 reports, mean 1.04, 10 with none (20%)"
+timing,mean after June 2024,1.0408163265306123,1.04
+timing,share with none after June 2024,0.20408163265306123,20%
+timing,events in June 2024,1,"1 event in 1 report, mean 1.00, 0 with none (0%)"
+timing,mean in June 2024,1.0,1.00
+timing,share with none in June 2024,0.0,0%
+timing,"mean of per-report means, before and after June 2024","(0.998015873015873, 1.2939814814814816)",from 1.00 to 1.29
+timing,later events from the two Qwen reports,26,26 of 49
+timing,later reports below the repair papers,0.38838628234799066,"39% ([10%, 56%])"
+timing,"later reports below the repair papers, weighted by report",0.3037600805408036,"30% below the repair papers' 1.86 ([4%, 51%])"
+timing,"after minus before June 2024, event weighting",-0.03325774754346189,"-0.03 ([-0.43, 0.55])"
+timing,"after minus before June 2024, document weighting",0.2959656084656084,"0.30 ([-0.16, 0.76])"
+timing,replicates in which the gap between repair papers and model reports exceeds zero,9999,"9,999 of 10,000"
+panel_b,panel b | Headline | events,28,28
+panel_b,panel b | Headline | repaired variant,19,19
+panel_b,panel b | Headline | item error,0,0
+panel_b,panel b | Headline | none,7,7
+panel_b,panel b | Headline | of which Qwen2,5,5
+panel_b,panel b | Stated only | events,28,28
+panel_b,panel b | Stated only | repaired variant,19,19
+panel_b,panel b | Stated only | item error,0,0
+panel_b,panel b | Stated only | none,15,15
+panel_b,panel b | Stated only | of which Qwen2,9,9
+panel_b,panel b | K5 and K6 dropped | events,28,28
+panel_b,panel b | K5 and K6 dropped | repaired variant,19,19
+panel_b,panel b | K5 and K6 dropped | item error,0,0
+panel_b,panel b | K5 and K6 dropped | none,15,15
+panel_b,panel b | K5 and K6 dropped | of which Qwen2,9,9
+panel_b,panel b | Printed only | events,25,25
+panel_b,panel b | Printed only | repaired variant,19,19
+panel_b,panel b | Printed only | item error,0,0
+panel_b,panel b | Printed only | none,7,7
+panel_b,panel b | Printed only | of which Qwen2,5,5
+panel_b,panel b | Every row | events,32,32
+panel_b,panel b | Every row | repaired variant,22,22
+panel_b,panel b | Every row | item error,2,2
+panel_b,panel b | Every row | none,7,7
+panel_b,panel b | Every row | of which Qwen2,5,5
+panel_b,post-repair reports that print MMLU-Pro,6,6 of 9
+shares,share | Construction paper | events,17,17
+shares,share | Construction paper | implementation K2,0.7058823529411765,71%
+shares,share | Construction paper | contamination K3,0.058823529411764705,6%
+shares,share | Construction paper | item error K4,0.0,0%
+shares,share | Construction paper | aggregate K5,0.8235294117647058,82%
+shares,share | Construction paper | scope K6,0.0,0%
+shares,share | Construction paper | saturation K7,0.0,0%
+shares,share | Repair papers | events,57,57
+shares,share | Repair papers | implementation K2,0.6491228070175439,65%
+shares,share | Repair papers | contamination K3,0.08771929824561403,9%
+shares,share | Repair papers | item error K4,0.07017543859649122,7%
+shares,share | Repair papers | aggregate K5,0.6140350877192983,61%
+shares,share | Repair papers | scope K6,0.15789473684210525,16%
+shares,share | Repair papers | saturation K7,0.12280701754385964,12%
+shares,share | Model reports | events,77,77
+shares,share | Model reports | implementation K2,0.44155844155844154,44%
+shares,share | Model reports | contamination K3,0.05194805194805195,5%
+shares,share | Model reports | item error K4,0.0,0%
+shares,share | Model reports | aggregate K5,0.2077922077922078,21%
+shares,share | Model reports | scope K6,0.35064935064935066,35%
+shares,share | Model reports | saturation K7,0.0,0%
+shares,share | Leaderboard post | events,2,2
+shares,share | Leaderboard post | implementation K2,1.0,100%
+shares,share | Leaderboard post | contamination K3,0.0,0%
+shares,share | Leaderboard post | item error K4,0.0,0%
+shares,share | Leaderboard post | aggregate K5,0.5,50%
+shares,share | Leaderboard post | scope K6,0.0,0%
+shares,share | Leaderboard post | saturation K7,0.0,0%
+shares,share | Governance syntheses | events,17,17
+shares,share | Governance syntheses | implementation K2,0.11764705882352941,12%
+shares,share | Governance syntheses | contamination K3,0.0,0%
+shares,share | Governance syntheses | item error K4,0.058823529411764705,6%
+shares,share | Governance syntheses | aggregate K5,0.17647058823529413,18%
+shares,share | Governance syntheses | scope K6,0.0,0%
+shares,share | Governance syntheses | saturation K7,0.11764705882352941,12%
+census,Before June 2024 (6) | implementation | named,6,6
+census,Before June 2024 (6) | implementation | with generic statements,6,6
+census,Before June 2024 (6) | item error | named,0,0
+census,Before June 2024 (6) | item error | with generic statements,0,0
+census,Before June 2024 (6) | contamination | named,3,3
+census,Before June 2024 (6) | contamination | with generic statements,4,4
+census,Before June 2024 (6) | saturation | named,0,0
+census,Before June 2024 (6) | saturation | with generic statements,1,1
+census,Before June 2024 (6) | scope | named,2,2
+census,Before June 2024 (6) | scope | with generic statements,2,2
+census,Before June 2024 (6) | aggregate | named,2,2
+census,Before June 2024 (6) | aggregate | with generic statements,2,2
+census,June 2024 (1) | implementation | named,1,1
+census,June 2024 (1) | implementation | with generic statements,1,1
+census,June 2024 (1) | item error | named,0,0
+census,June 2024 (1) | item error | with generic statements,0,0
+census,June 2024 (1) | contamination | named,0,0
+census,June 2024 (1) | contamination | with generic statements,0,0
+census,June 2024 (1) | saturation | named,0,0
+census,June 2024 (1) | saturation | with generic statements,0,0
+census,June 2024 (1) | scope | named,0,0
+census,June 2024 (1) | scope | with generic statements,0,0
+census,June 2024 (1) | aggregate | named,0,0
+census,June 2024 (1) | aggregate | with generic statements,0,0
+census,After June 2024 (9) | implementation | named,9,9
+census,After June 2024 (9) | implementation | with generic statements,9,9
+census,After June 2024 (9) | item error | named,3,3
+census,After June 2024 (9) | item error | with generic statements,3,3
+census,After June 2024 (9) | contamination | named,2,2
+census,After June 2024 (9) | contamination | with generic statements,4,4
+census,After June 2024 (9) | saturation | named,2,2
+census,After June 2024 (9) | saturation | with generic statements,3,3
+census,After June 2024 (9) | scope | named,7,7
+census,After June 2024 (9) | scope | with generic statements,7,7
+census,After June 2024 (9) | aggregate | named,4,4
+census,After June 2024 (9) | aggregate | with generic statements,4,4
+census,All (16) | implementation | named,16,16
+census,All (16) | implementation | with generic statements,16,16
+census,All (16) | item error | named,3,3
+census,All (16) | item error | with generic statements,3,3
+census,All (16) | contamination | named,5,5
+census,All (16) | contamination | with generic statements,8,8
+census,All (16) | saturation | named,2,2
+census,All (16) | saturation | with generic statements,4,4
+census,All (16) | scope | named,9,9
+census,All (16) | scope | with generic statements,9,9
+census,All (16) | aggregate | named,6,6
+census,All (16) | aggregate | with generic statements,6,6
+census,reports with an implementation statement somewhere,16,16 of 16
+census,reports with an item-error qualification anywhere,3,3 of 16
+census,events on the English MMLU after KMMLU appeared (released after February 2024),34,34
+census,of them with a scope qualification,8,8
+census,of them with a scope qualification stated in words,0,0
+governance,events with no qualification,11,11 of 17
+governance,events with no qualification before adjudication,8,8 of 17
+governance,AI Index 2025 events with no qualification,9,9 of 13
+governance,"share with none, each document weighted equally",0.6752136752136751,68%
+reliability,rows in the second coding,194,194 of 194
+reliability,reliability | K1 | first pass positive,174,174
+reliability,reliability | K1 | second coding positive,194,194
+reliability,reliability | K1 | disagreements,20,20
+reliability,reliability | K1 | kappa,nan,-
+reliability,reliability | K2 | first pass positive,109,109
+reliability,reliability | K2 | second coding positive,94,94
+reliability,reliability | K2 | disagreements,25,25
+reliability,reliability | K2 | kappa,0.7432503970354685,0.74
+reliability,reliability | K3 | first pass positive,17,17
+reliability,reliability | K3 | second coding positive,11,11
+reliability,reliability | K3 | disagreements,6,6
+reliability,reliability | K3 | kappa,0.7698695136417556,0.77
+reliability,reliability | K4 | first pass positive,12,12
+reliability,reliability | K4 | second coding positive,11,11
+reliability,reliability | K4 | disagreements,1,1
+reliability,reliability | K4 | kappa,0.9537875178656505,0.95
+reliability,reliability | K5 | first pass positive,67,67
+reliability,reliability | K5 | second coding positive,66,66
+reliability,reliability | K5 | disagreements,15,15
+reliability,reliability | K5 | kappa,0.82839957542163,0.83
+reliability,reliability | K6 | first pass positive,36,36
+reliability,reliability | K6 | second coding positive,42,42
+reliability,reliability | K6 | disagreements,12,12
+reliability,reliability | K6 | kappa,0.8077304261645194,0.81
+reliability,reliability | K7 | first pass positive,26,26
+reliability,reliability | K7 | second coding positive,8,8
+reliability,reliability | K7 | disagreements,18,18
+reliability,reliability | K7 | kappa,0.43495145631067944,0.43
+reliability,disagreements on the six qualifications,77,"77 of 1,164 (6.6%)"
+reliability,kappa range except saturation,"(0.7432503970354685, 0.9537875178656505)",from 0.74 to 0.95
+reliability,kappa for saturation,0.43495145631067944,0.43
+reliability,disputed cells,97,97 (77 on the six qualifications and 20 on variant identification)
+reliability,agents in the second coding,7,7
+reliability,rows whose second coder declared a memory of project conventions,3,3
+reliability,disputed cells whose final code follows the second coding,87,87 of 97; 10 follow the first pass
+hle,events,14,14 in 9 model releases
+hle,mean qualifications per event,0.7857142857142857,0.79
+hle,events with none,4,4 (29%)
+hle,qualifications that state an implementation,10,10 of 11
+hle,events with an item-error qualification,0,0 of 14
+hle,exact 95% upper limit on the share of documents with item error,0.3362671168799428,34%
+hle,events with an item-error qualification if linked methodology documents are attached,2,2 of 14
+hle,reading | Headline (adjudicated) | mean,0.7857142857142857,0.79
+hle,reading | Headline (adjudicated) | with none,4,4
+hle,reading | Headline (adjudicated) | share with none,0.2857142857142857,29%
+hle,reading | Headline (adjudicated) | events,14,14
+hle,reading | Printed scores only | mean,0.6666666666666666,0.67
+hle,reading | Printed scores only | with none,4,4
+hle,reading | Printed scores only | share with none,0.3333333333333333,33%
+hle,reading | Printed scores only | events,12,12
+hle,reading | Each document weighted equally | mean,0.6666666666666666,0.67
+hle,reading | Each document weighted equally | share with none,0.3888888888888889,39%
+hle,reading | Each document weighted equally | events,9 documents,9 documents
+hle,reading | Linked methodology documents attached | mean,1.1428571428571428,1.14
+hle,reading | Linked methodology documents attached | with none,1,1
+hle,reading | Linked methodology documents attached | share with none,0.07142857142857142,7%
+hle,reading | Linked methodology documents attached | events,14,14
+hle,"reading | The same, with four possible aggregate additions | mean",1.4285714285714286,1.43
+hle,"reading | The same, with four possible aggregate additions | with none",1,1
+hle,"reading | The same, with four possible aggregate additions | share with none",0.07142857142857142,7%
+hle,"reading | The same, with four possible aggregate additions | events",14,14
+hle,"reading | First pass, before adjudication | mean",0.7142857142857143,0.71
+hle,"reading | First pass, before adjudication | with none",4,4
+hle,"reading | First pass, before adjudication | share with none",0.2857142857142857,29%
+hle,"reading | First pass, before adjudication | events",14,14
+hle,reading | Second coding alone | mean,0.7857142857142857,0.79
+hle,reading | Second coding alone | with none,4,4
+hle,reading | Second coding alone | share with none,0.2857142857142857,29%
+hle,reading | Second coding alone | events,14,14
+hle,cells on which the second coding agrees with the first,95,95 of 98
+hle,"agreement, K1",14,14 of 14
+hle,"agreement, K2",12,12 of 14 (kappa 0.65)
+hle,"agreement, K3",14,14 of 14
+hle,"agreement, K4",14,14 of 14
+hle,"agreement, K5",13,13 of 14
+hle,"agreement, K6",14,14 of 14
+hle,"agreement, K7",14,14 of 14
+hle,"agreement, hle_variant",6,6 of 14 (kappa 0.36)
+hle,"agreement, hle_variant_features",14,14 of 14
+hle,agents in the second coding,2,2
+hle,agreement on the unflagged events,41,41 of 42 cells (6 events)
+population,artefacts in the population,44,44
+population,artefacts that relocate the scope,27,27
+population,"artefacts that repair the items, the format or the conditions",13,"13 (substrate 6, object 3, conditions 4)"
+population,artefacts that change no layer,4,4
+population,days between the first arXiv versions of MMLU-Pro and MMLU-Redux,3,3 (3 June 2024 and 6 June 2024)
