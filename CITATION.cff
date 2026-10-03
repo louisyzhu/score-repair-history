@@ -8,7 +8,7 @@ authors:
     affiliation: University of Oxford
 version: 1.0.1
 date-released: 2026-10-03
-doi: 10.5281/zenodo.23113022
+doi: 10.5281/zenodo.23113021
 license: MIT
 repository-code: "https://github.com/louisyzhu/score-repair-history"
 keywords: [benchmarks, MMLU, meta-science, measurement validity, benchmark maintenance]

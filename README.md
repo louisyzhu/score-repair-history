@@ -1,5 +1,7 @@
 # Position: A Score Should Travel With Its Repair History (supplementary data)
 
+[![DOI](https://zenodo.org/badge/1402502584.svg)](https://doi.org/10.5281/zenodo.23113021)
+
 We release here the data and code behind the count of reporting events in Section 3 of the paper, a position paper at the NeurIPS 2026 workshop on AI for Meta-Science. Two scripts read only the files in `data/` and regenerate every count-derived number that the main text and Appendix C print, together with Figure 1. Numbers that the paper takes from the documents themselves, such as page anchors and quoted figures, come from the cited sources and lie outside the scripts.
 
 ## Running the scripts
@@ -112,7 +114,7 @@ In `model_report_dates.csv` the column `release_month` gives the month of the fi
 
 ## Data and code archive
 
-This folder is archived on Zenodo, https://doi.org/10.5281/zenodo.23113022 (all versions), and kept at https://github.com/louisyzhu/score-repair-history.
+This folder is archived on Zenodo, https://doi.org/10.5281/zenodo.23113021 (all versions), and kept at https://github.com/louisyzhu/score-repair-history.
 
 ## Use of generative AI
 
