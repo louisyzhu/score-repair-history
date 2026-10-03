@@ -116,7 +116,7 @@ This folder is archived on Zenodo, https://doi.org/10.5281/zenodo.23113022 (all 
 
 ## Use of generative AI
 
-As the paper's methods describe (Section 3 and Appendices B, E, F and G), language model agents (Claude, Anthropic) searched the documents, applied our written coding protocol, coded every row a second time and compiled the population and survey tables, and the released files record every code. Generative AI tools also assisted with debugging code, formatting, and preparing figures and tables. The research question, the argument and the interpretation are our own, and we take full responsibility for all content.
+As the paper's methods describe (Section 3 and Appendices B, E, F and G), language model agents (Claude, Anthropic) searched the documents, applied our written coding protocol, coded every row a second time and compiled the population and survey tables, and the released files record every code. Generative AI tools also assisted with debugging code, formatting, and preparing figures and tables. The research question, the argument, the coding protocol and its rules, and the interpretation of the results are our own. We reviewed all AI-assisted output and take full responsibility for the content of the paper and of the released files.
 
 ## Licence and citation
 
