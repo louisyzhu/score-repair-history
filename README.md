@@ -114,9 +114,9 @@ In `model_report_dates.csv` the column `release_month` gives the month of the fi
 
 This folder is archived on Zenodo, https://doi.org/10.5281/zenodo.23113022 (all versions), and kept at https://github.com/louisyzhu/score-repair-history.
 
-## Generative AI usage statement
+## Use of generative AI
 
-The research question, the argument, the coding protocol and the interpretation are our own, and we are responsible for the text. As Section 3 and Appendices B and E of the paper describe, language model agents (Claude, Anthropic) searched the documents, applied our written coding protocol, coded every row a second time and checked the rulings against our rules. They also compiled the population and survey tables of Appendices F and G. The released files record every code and ruling. Generative AI tools further assisted with debugging code, formatting, and preparing figures and tables. We take full responsibility for the content.
+As the paper's methods describe (Section 3 and Appendices B, E, F and G), language model agents (Claude, Anthropic) searched the documents, applied our written coding protocol, coded every row a second time and compiled the population and survey tables, and the released files record every code. Generative AI tools also assisted with debugging code, formatting, and preparing figures and tables. The research question, the argument and the interpretation are our own, and we take full responsibility for all content.
 
 ## Licence and citation
 
