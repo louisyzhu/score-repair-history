@@ -110,9 +110,13 @@ In `model_report_dates.csv` the column `release_month` gives the month of the fi
 
 `population.csv` reproduces the table of Appendix F with the original MMLU in its first row. The phrase "not confirmed" marks a detail that the compilation could not check against a primary record. `release_survey.csv` holds the table of Appendix G, with document names that follow the tally.
 
-## AI assistance
+## Data and code archive
 
-Claude models (Anthropic), working as agents under written rules, carried out the document searches, the coding, the completeness searches, the census, the adjudication and the audits described in Appendices B and E. They also compiled the population and survey tables of Appendices F and G, and language model tools assisted with reference checking, the appendices, formatting and code. We reviewed all of it and take full responsibility for the content.
+This folder is archived on Zenodo, https://doi.org/10.5281/zenodo.23113022 (all versions), and kept at https://github.com/louisyzhu/score-repair-history.
+
+## Generative AI usage statement
+
+The research question, the argument, the coding protocol and the interpretation are our own, and we are responsible for the text. As Section 3 and Appendices B and E of the paper describe, language model agents (Claude, Anthropic) searched the documents, applied our written coding protocol, coded every row a second time and checked the rulings against our rules. They also compiled the population and survey tables of Appendices F and G. The released files record every code and ruling. Generative AI tools further assisted with debugging code, formatting, and preparing figures and tables. We take full responsibility for the content.
 
 ## Licence and citation
 
